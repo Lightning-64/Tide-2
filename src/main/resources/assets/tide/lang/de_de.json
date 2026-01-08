@@ -841,15 +841,5 @@
   "text.tide.rod_tooltip.diamond_bonus": "Zusätzliche Erfahrungspunkte",
   "text.tide.rod_tooltip.gold_bonus": "+1 Glück",
   "text.tide.rod_tooltip.midas_bonus": "Fange zusätzliche Golditems",
-  "text.tide.rod_tooltip.netherite_bonus": "Kann in Lava angeln",
-  "accessory.item.hybrid-aquatic.barbed_hook": "Barbed Hook",
-  "accessory.item.hybrid-aquatic.creepermagnet_hook": "CreeperMagnet Hook",
-  "accessory.item.hybrid-aquatic.glowing_hook": "Glowing Hook",
-  "accessory.item.hybrid-aquatic.magnetic_hook": "Magnetic Hook",
-  "accessory.item.hybrid-aquatic.ominous_hook": "Ominous Hook",
-  "accessory.item.hybrid-aquatic.barbed_hook": "Barbed Hook",
-  "accessory.item.hybrid-aquatic.creepermagnet_hook": "CreeperMagnet Hook",
-  "accessory.item.hybrid-aquatic.glowing_hook": "Glowing Hook",
-  "accessory.item.hybrid-aquatic.magnetic_hook": "Magnetic Hook",
-  "accessory.item.hybrid-aquatic.ominous_hook": "Ominous Hook"
+  "text.tide.rod_tooltip.netherite_bonus": "Kann in Lava angeln"
 }
