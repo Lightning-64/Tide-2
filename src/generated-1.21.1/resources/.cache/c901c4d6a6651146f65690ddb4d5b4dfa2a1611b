@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-05T19:34:41.2516832	Tide/Fish Data
+// 1.21.1	2026-01-08T16:34:07.2055548	Tide/Fish Data
 81dda9d68fea1be2dd16af0da08f07083ed99954 data\tide\fishing\fish\saltwater\mackerel.json
 2797147e32bdd0e68c751b04fc8f723a1b1917a6 data\minecraft\fishing\fish\freshwater\salmon.json
 3447df552133a57e79b012d592e2e3aa755fba96 data\tide\fishing\fish\freshwater\carp.json
@@ -33,8 +33,8 @@ e90c6b34dc8120379505f4132fce58149bc8ddbf data\hybrid_aquatic\fishing\fish\saltwa
 f8a0132e90467fe3cfda44867c0a2a3e72c3fd48 data\tide\fishing\fish\freshwater\catfish.json
 96758dfe20845446b92ad94879d005dee021e437 data\tide\fishing\fish\lava\ash_perch.json
 0f63e3f5512ca3a562fd2b3ff803fc8327c51832 data\hybrid_aquatic\fishing\fish\misc\mahi.json
-a783631d2f8e4cd111166534ea75d2e132958cde data\tide\fishing\fish\underground\crystal_shrimp.json
 5256b9e83f4c5a990d7e51796f18e2843d776cda data\tide\fishing\fish\saltwater\tuna.json
+a783631d2f8e4cd111166534ea75d2e132958cde data\tide\fishing\fish\underground\crystal_shrimp.json
 a583cf6a7cbf8b5f48534e7b94e2306f9e58453f data\tide\fishing\fish\void\red_40.json
 43d5d876f5ddd5e4febbb2641b24ccae521207b6 data\stardew_fishing\fishing\fish\freshwater\chromatic_arapaima.json
 9c1d3cc1010d2aec6939b5162cad44d46fe49423 data\netherdepthsupgrade\fishing\fish\lava\magmacubefish.json
@@ -93,7 +93,7 @@ fa9be4ef07104ad9bb4ba4d63e6cbfea2d496ca1 data\tide\fishing\fish\void\chorus_cod.
 564b7bee3109f1e31bd7bf9e420951faa916f1a1 data\tide\fishing\fish\lava\warped_guppy.json
 2d7f134ba50b8ee4685606eb1d89cc09c3cffee2 data\hybrid_aquatic\fishing\fish\freshwater\discus.json
 9c90bd7b2ca0f19f6942757d90e8a7e6596c87a3 data\tide\fishing\fish\underground\anglerfish.json
-32f0e5fe82cb63246115ee882a0207f135633ce4 data\hybrid_aquatic\fishing\fish\saltwater\surgeonfish.json
+fb12ced4d4ca9ca4351671ddd026c70d37d3729e data\hybrid_aquatic\fishing\fish\saltwater\surgeonfish.json
 597d795af90530b5297c423dd5769e4165101795 data\hybrid_aquatic\fishing\fish\misc\coelacanth.json
 82e93544cfc869103bf272297b01235f6b3f29cf data\netherdepthsupgrade\fishing\fish\lava\blazefish.json
 6c75f9efcc6fe5ad6d07c060f6e69afd3a58ac6a data\hybrid_aquatic\fishing\fish\underground\dragonfish.json
@@ -156,8 +156,8 @@ b015ec5dfaa04b19f6406b8fe9fc0c6b836662f5 data\tide\fishing\fish\void\enderfin.js
 0948dca36c02670a274d7a9de93fefcf0fc4e403 data\tide\fishing\fish\saltwater\great_white_shark.json
 bff8ca05e975dc52ce9322ec05148bd8a9e67892 data\hybrid_aquatic\fishing\fish\misc\carp.json
 250a9cc0de95cb2d83be6bd84fdfe4115695c774 data\hybrid_aquatic\fishing\fish\saltwater\flying_fish.json
-9ee3d955165ab6f290e8f29522c5beab576d4feb data\tide\fishing\fish\underground\glowfish.json
 4079909cceededca1ad607ff8937f4eb41ce0bed data\tide\fishing\fish\underground\dripstone_darter.json
+9ee3d955165ab6f290e8f29522c5beab576d4feb data\tide\fishing\fish\underground\glowfish.json
 81aad86c21ade5d9113471e31c0990e09d62a318 data\stardew_fishing\fishing\fish\freshwater\demon_gar.json
 402844f21c55115921120085c7be1243a8ec59fc data\stardew_fishing\fishing\fish\freshwater\golden_snook.json
 bc2c8f0c993a5a8c96c693d2cdb4b68c386f4595 data\tide\fishing\fish\freshwater\walleye.json

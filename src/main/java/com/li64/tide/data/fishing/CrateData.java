@@ -86,7 +86,8 @@ public record CrateData(BlockStateProvider blockProvider,
 
     @Override
     public boolean isValid() {
-        return this.associatedMod().map(Tide.PLATFORM::isModLoaded).orElse(true);
+        return this.associatedMod().map(Tide.PLATFORM::isModLoaded).orElse(true) || this.associatedMod()
+                .map(id -> Tide.PLATFORM.isModLoaded(id.replace("-", "_"))).orElse(true);
     }
 
     @Override

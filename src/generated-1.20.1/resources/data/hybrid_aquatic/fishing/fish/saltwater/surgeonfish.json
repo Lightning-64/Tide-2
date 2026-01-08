@@ -21,8 +21,7 @@
   "display_data": {
     "entity": "hybrid-aquatic:surgeonfish",
     "roll": -90.0,
-    "x": 0.02,
-    "y": -0.15,
+    "y": -0.35,
     "z": 0.08
   },
   "fish": "hybrid-aquatic:surgeonfish",
@@ -41,9 +40,9 @@
   ],
   "selection_weight": 25.0,
   "size": {
-    "record_high_cm": 55.0,
-    "typical_high_cm": 35.0,
-    "typical_low_cm": 20.0
+    "record_high_cm": 100.0,
+    "typical_high_cm": 45.0,
+    "typical_low_cm": 25.0
   },
   "speed": 1.25,
   "strength": 0.45

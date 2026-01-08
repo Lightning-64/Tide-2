@@ -18,7 +18,7 @@ import java.util.List;
 
 public class CompatHelper {
     public static boolean isHybridAquaticLoaded() {
-        return Tide.PLATFORM.isModLoaded("hybrid-aquatic");
+        return Tide.PLATFORM.isModLoaded("hybrid-aquatic") || Tide.PLATFORM.isModLoaded("hybrid_aquatic");
     }
 
     public static Entity hybridAquaticPullEntity(ItemEntity itemEntity, Player player, TideFishingHook hook) {

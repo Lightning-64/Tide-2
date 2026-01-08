@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-05T19:40:34.4245841	Tide/Biome Tags
+// 1.20.1	2026-01-08T16:39:55.5473433	Tide/Biome Tags
 a0a57201ab5f1661122637adddaf9caccff5409d data\tide\tags\worldgen\biome\water_biomes.json
 034041f341bc4954532357f4fd41cd5f3dc2b521 data\tide\tags\worldgen\biome\has_dripstone_fish.json
 8ac46d38708cee87e8396bbe6c4a0c9d41f7d591 data\tide\tags\worldgen\biome\is_saltwater.json
@@ -11,6 +11,6 @@ bd76718dc6dfd87da8afb058de189a94a6c8e1fd data\tide\tags\worldgen\biome\has_mushr
 4d3dcc2b591fb86e1e585271f9f17b59c10969f5 data\tide\tags\worldgen\biome\has_structure\fishing_boat.json
 61f9daa79f2fb75681c2c5e5fb89e2fbba9e2cc9 data\tide\tags\worldgen\biome\has_deep_dark_fish.json
 81b7c13226ec59115837b15a37db61bb0c0ed514 data\tide\tags\worldgen\biome\has_frozen_fish.json
-964dfd246e30d06ac1be1245c66f833f424fbd3f data\tide\tags\worldgen\biome\has_coastal_fish.json
 c36f999b1a317af544c3cbedb04f3f260ac78b33 data\tide\tags\worldgen\biome\can_catch_starfish.json
+964dfd246e30d06ac1be1245c66f833f424fbd3f data\tide\tags\worldgen\biome\has_coastal_fish.json
 34a2a189e7f1ce5e441b0b48608ac32970f1702e data\tide\tags\worldgen\biome\has_cherry_grove_fish.json

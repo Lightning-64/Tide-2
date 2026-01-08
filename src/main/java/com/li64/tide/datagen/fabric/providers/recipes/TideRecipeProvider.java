@@ -223,7 +223,7 @@ public class TideRecipeProvider extends FabricRecipeProvider {
                 .pattern(" # ")
                 .pattern("#I#")
                 .pattern("#R#")
-                .define('#', TideTags.Convention.GLASS_BLOCKS)
+                .define('#', TideTags.Convention.COLORLESS_GLASS_BLOCKS)
                 .define('I', TideTags.Convention.IRON_NUGGETS)
                 .define('R', TideTags.Convention.REDSTONE_DUSTS)
                 .unlockedBy("has_redstone", has(TideTags.Convention.REDSTONE_DUSTS))

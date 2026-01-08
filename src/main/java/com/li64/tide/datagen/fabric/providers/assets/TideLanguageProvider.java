@@ -340,7 +340,7 @@ public class TideLanguageProvider extends FabricLanguageProvider {
 
         builder.add("item.tide.braided_line.desc", "Increases rod charge speed");
         builder.add("item.tide.reinforced_line.desc", "Increases rod durability");
-        builder.add("item.tide.fortune_line.desc", "Increases fishing luck");
+        builder.add("item.tide.golden_line.desc", "Increases fishing luck");
 
         builder.add("item.tide.iron_hook.desc", "-15% catch difficulty");
         builder.add("item.tide.lavaproof_hook.desc", "Allows fishing in lava");
@@ -611,7 +611,13 @@ public class TideLanguageProvider extends FabricLanguageProvider {
         builder.add("accessory.item.tide.fishing_line", "Normal Line");
         builder.add("accessory.item.tide.braided_line", "Braided Line");
         builder.add("accessory.item.tide.reinforced_line", "Reinforced Line");
-        builder.add("accessory.item.tide.fortune_line", "Golden Line");
+        builder.add("accessory.item.tide.golden_line", "Golden Line");
+
+        builder.add("accessory.item.hybrid-aquatic.barbed_hook", "Barbed Hook");
+        builder.add("accessory.item.hybrid-aquatic.glowing_hook", "Glowing Hook");
+        builder.add("accessory.item.hybrid-aquatic.magnetic_hook", "Magnetic Hook");
+        builder.add("accessory.item.hybrid-aquatic.creepermagnet_hook", "CreeperMagnet Hook");
+        builder.add("accessory.item.hybrid-aquatic.ominous_hook", "Ominous Hook");
 
         // Command responses
 

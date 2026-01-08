@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-05T19:34:41.2606829	Tide/Biome Tags
+// 1.21.1	2026-01-08T16:34:07.2145553	Tide/Biome Tags
 f57a77c025311702a1ad1bb92baf65649a2a9999 data\tide\tags\worldgen\biome\has_end_oasis.json
 95608987ad9d89016378b518c359483fc3c459b4 data\tide\tags\worldgen\biome\has_mushroom_fish.json
 bd3a337fd5984aa06820eea84a2aade8e70e8b08 data\tide\tags\worldgen\biome\has_cherry_grove_fish.json
@@ -11,6 +11,6 @@ c9ddf09ae1da1b8f55e971d4c439cf2a1a411765 data\tide\tags\worldgen\biome\has_jungl
 755714dbf95229d5fe0603bbfc69decca9389beb data\tide\tags\worldgen\biome\has_frozen_fish.json
 ec7bbb0c9b5fc5378f8716f54862806404f04360 data\tide\tags\worldgen\biome\can_catch_starfish.json
 45e2314b6fbf2e847bd70c163e678e0e756a1640 data\tide\tags\worldgen\biome\has_deep_dark_fish.json
-ed9044b703448090bf0d188dce47c4bcdaf54c16 data\tide\tags\worldgen\biome\has_coastal_fish.json
 c2dc6604eea14716b9ff4ef4400a188627554dd0 data\tide\tags\worldgen\biome\has_desert_fish.json
+ed9044b703448090bf0d188dce47c4bcdaf54c16 data\tide\tags\worldgen\biome\has_coastal_fish.json
 a0abb2e7d3aa0f53509e9fe378ab74f741a47a43 data\tide\tags\worldgen\biome\has_swamp_fish.json

@@ -54,8 +54,13 @@ public class FishRenderer<M extends FishModel> extends MobRenderer<Mob, FishMode
             poseStack.mulPose(Axis.ZP.rotationDegrees(90f));
         }
         else {
-            fish.setXRot((float) (fish.getDeltaMovement().y() * 1.5 * xTiltScale));
-            poseStack.mulPose(Axis.XP.rotation(Mth.lerp(partialTick, fish.xRotO, fish.getXRot())));
+            // temp workaround for a bug with alex's caves
+            float tilt = Mth.clamp((float) (fish.getDeltaMovement().y() * 1.5 * xTiltScale), -Mth.HALF_PI, Mth.HALF_PI);
+            if (Tide.PLATFORM.isModLoaded("alexscaves")) poseStack.mulPose(Axis.XP.rotation(tilt));
+            else {
+                fish.setXRot(tilt);
+                poseStack.mulPose(Axis.XP.rotation(Mth.lerp(partialTick, fish.xRotO, fish.getXRot())));
+            }
         }
     }
 

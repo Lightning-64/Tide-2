@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "tide:fortune_line"
+        "recipe": "tide:golden_line"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "tide:fortune_line"
+      "tide:golden_line"
     ]
   }
 }

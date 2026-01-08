@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 //     |  |     |  | |  '--'  ||  |____
 //     |__|     |__| |_______/ |_______|  (v2)
 // everyone's favorite fishing mod! (probably)
-// released in 2023 by Lightning64 (v2 in 2025)
+// released in 2023 by Lightning64 (v2 in 2026)
 public class Tide {
     public static final String MOD_ID = "tide";
     public static final String MOD_NAME = "Tide";

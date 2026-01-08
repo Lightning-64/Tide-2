@@ -124,7 +124,7 @@ public class TideTags {
 
         public static final TagKey<Item> COBBLESTONES = create("cobblestones", Registries.ITEM);
         public static final TagKey<Item> OBSIDIANS = create("obsidians", Registries.ITEM);
-        public static final TagKey<Item> GLASS_BLOCKS = create("glass_blocks", Registries.ITEM);
+        public static final TagKey<Item> COLORLESS_GLASS_BLOCKS = create("glass_blocks/colorless", Registries.ITEM);
 
         public static final TagKey<Item> SLIME_BALLS = create("slime_balls", Registries.ITEM);
         public static final TagKey<Item> SEEDS = create("seeds", Registries.ITEM);

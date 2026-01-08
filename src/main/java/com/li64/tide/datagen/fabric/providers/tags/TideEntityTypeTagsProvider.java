@@ -25,6 +25,11 @@ public class TideEntityTypeTagsProvider extends FabricTagProvider<EntityType<?>>
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         getOrCreateTagBuilder(EntityTypeTags.ARROWS).add(TideEntityTypes.STAR_ARROW);
+
+        //? if >=1.21 {
+        var aquatic = getOrCreateTagBuilder(EntityTypeTags.AQUATIC);
+        TideEntityTypes.FISH_ENTITIES.forEach(aquatic::add);
+        //?}
     }
 }
 //?}

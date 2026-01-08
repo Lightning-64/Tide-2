@@ -4,8 +4,8 @@
     "minecraft:cooked_cod",
     "minecraft:cooked_salmon",
     "tide:grilled_tuna",
-    "tide:cooked_fish",
     "tide:small_cooked_fish",
-    "tide:large_cooked_fish"
+    "tide:large_cooked_fish",
+    "tide:cooked_fish"
   ]
 }

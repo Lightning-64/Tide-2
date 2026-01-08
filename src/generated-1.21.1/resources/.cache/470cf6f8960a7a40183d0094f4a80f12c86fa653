@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-05T19:34:41.2656846	Tide/Fishing Real Conversions
+// 1.21.1	2026-01-08T16:34:07.220154	Tide/Fishing Real Conversions
 f53d8a1cdf683dd1a1bf582ca2944fb220ce646d data\fishingreal\fishing\red_snapper.json
 7779f56c46529c6da3c91e88a252613c57b64342 data\fishingreal\fishing\arapaima.json
 75b9903cfca40e26de54915b31878d68cb861147 data\fishingreal\fishing\aquathorn.json
@@ -12,8 +12,8 @@ ba41af6bcf30bed205adb973c60ade684d61e2fe data\fishingreal\fishing\ocean_perch.js
 2164f6a7d793381b572582e7f6911446cce1eedc data\fishingreal\fishing\shadow_snapper.json
 ed8a77973cd94aac58b8fb991b16d51964707e8d data\fishingreal\fishing\midas_fish.json
 38711eba97860422fc4812586cf3e800c7b533dc data\fishingreal\fishing\mahi_mahi.json
-f8186f020f8da1bb0fd53126fb410bee98e44961 data\fishingreal\fishing\anchovy.json
 3bab58e53e064d90f73fb42f493914dfca13d82a data\fishingreal\fishing\sailfish.json
+f8186f020f8da1bb0fd53126fb410bee98e44961 data\fishingreal\fishing\anchovy.json
 0aae9ab7a7746ada86576007b09e075134d9bd46 data\fishingreal\fishing\manta_ray.json
 38553dcc3409957fec3663900e5582e882d78205 data\fishingreal\fishing\shadow_shark.json
 056d1a659a9f0e5ff4c90b26268bd2a985f1180d data\fishingreal\fishing\pentapus.json
@@ -49,8 +49,8 @@ ad521927640459fbf0759b748af9b666a7093329 data\fishingreal\fishing\crystal_shrimp
 86a15e62cb9c39c5dcf3b1f1a56ad333ebf1fb61 data\fishingreal\fishing\bedrock_tetra.json
 0c0c467be7e8eb34e73fbb851f0dbba17b88c3dc data\fishingreal\fishing\sand_tiger_shark.json
 dc5f926c2042e3a2e2f6703c3f3af85b65bd65b9 data\fishingreal\fishing\deep_grouper.json
-64a0dda0cda62fa85e90c939b3d0810e9b5642ad data\fishingreal\fishing\cave_crawler.json
 8ed1ae260967b06b395d5bea8636b2b4e2aaf9a2 data\fishingreal\fishing\ender_glider.json
+64a0dda0cda62fa85e90c939b3d0810e9b5642ad data\fishingreal\fishing\cave_crawler.json
 8f353e6d524d74f9e7fcb073f591bd7a01d8814a data\fishingreal\fishing\flounder.json
 3354ee7ee97dcfdac3943e41986c85a4db95102c data\fishingreal\fishing\devils_hole_pupfish.json
 f8002b24a12b1431b31b01a4648893af6abcc472 data\fishingreal\fishing\anglerfish.json
@@ -64,8 +64,8 @@ e8022b298a2c9ccb1769f10c35032845010bc0a4 data\fishingreal\fishing\snatcher_squid
 aeba795f31afe5001e314737fc3a509255b8a1b8 data\fishingreal\fishing\lapis_lanternfish.json
 b0e133c72f6a1b5f7744bf34ee8930857eeec0ce data\fishingreal\fishing\largemouth_bass.json
 2ef3a3fc50821954b8a619117b6127551a2686db data\fishingreal\fishing\elytrout.json
-c68df3ed3f9b9db7235f524eaede5592dde4b2b6 data\fishingreal\fishing\ash_perch.json
 bb1778c22a9595d24aa5f37e71ca646ad8451aef data\fishingreal\fishing\mantyvern.json
+c68df3ed3f9b9db7235f524eaede5592dde4b2b6 data\fishingreal\fishing\ash_perch.json
 f524bbb738f0192868c17f84f8c7af862f99d093 data\fishingreal\fishing\uranias_pisces.json
 a62fc11595687d42c06e7ca5b835cc1b1a08d129 data\fishingreal\fishing\mooneye.json
 100943c7500254fcb0ba44ae89d575f0ae9dbdf0 data\fishingreal\fishing\dragon_fish.json
@@ -98,6 +98,6 @@ d6fc80b5fa3089ea01f257d507d1284c837bae06 data\fishingreal\fishing\abyss_angler.j
 6f95db359551ab2dbf884660c2c066a9e2adb22c data\fishingreal\fishing\bluegill.json
 e125ed5414f0a987d601a18771b19b69fd323527 data\fishingreal\fishing\blazing_swordfish.json
 e2ecf2ee0d5049919d09c152316c1feaf2e48985 data\fishingreal\fishing\endergazer.json
-88bedd54e5ce74d14c0076b8e0dae95211d58ef5 data\fishingreal\fishing\amber_rockfish.json
 79cc7acee5efabdf6075dfa096480a5700cc6999 data\fishingreal\fishing\shooting_starfish.json
+88bedd54e5ce74d14c0076b8e0dae95211d58ef5 data\fishingreal\fishing\amber_rockfish.json
 7449c4bb1add51c6c67f7615d6bd985d8baf4dba data\fishingreal\fishing\pike.json

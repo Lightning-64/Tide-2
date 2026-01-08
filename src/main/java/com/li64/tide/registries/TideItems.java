@@ -82,7 +82,7 @@ public class TideItems {
     public static final Item FISHING_LINE = register("fishing_line", FishingLineItem::new);
     public static final Item BRAIDED_LINE = register("braided_line", properties -> new FishingLineItem(properties, "item.tide.braided_line.desc"));
     public static final Item REINFORCED_LINE = register("reinforced_line", properties -> new FishingLineItem(properties, "item.tide.reinforced_line.desc"));
-    public static final Item GOLDEN_LINE = register("fortune_line", properties -> new FishingLineItem(properties, "item.tide.fortune_line.desc"));
+    public static final Item GOLDEN_LINE = register("golden_line", properties -> new FishingLineItem(properties, "item.tide.golden_line.desc"));
 
     public static final Item FISHING_JOURNAL = register("fishing_journal", FishingJournalItem::new);
     public static final Item FISHY_NOTE = register("fishy_note", FishyNoteItem::new, new Item.Properties().stacksTo(1));

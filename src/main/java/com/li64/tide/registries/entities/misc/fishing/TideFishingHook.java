@@ -609,19 +609,18 @@ public class TideFishingHook extends Projectile {
                         double dy = player.getY() - this.getY();
                         double dz = player.getZ() - this.getZ();
 
-                        boolean didConvert = false;
                         entity.setDeltaMovement(dx * 0.1, dy * 0.11 + Math.sqrt(Math.sqrt(dx * dx + dy * dy + dz * dz)) * 0.08, dz * 0.1);
-                        if (Tide.PLATFORM.isModLoaded("fishingreal")) {
+                        if (CompatHelper.isHybridAquaticLoaded() && entity instanceof ItemEntity itemEntity) {
+                            entity = CompatHelper.hybridAquaticPullEntity(itemEntity, player, this);
+                        }
+                        if (Tide.PLATFORM.isModLoaded("fishingreal") && entity instanceof ItemEntity) {
                             Entity converted = CompatHelper.fishingRealConvertItemStack(stack, player, position());
                             if (converted != null) {
-                                didConvert = true;
+                                entity = converted;
                                 this.level().addFreshEntity(converted);
                             }
                         }
-                        if (!didConvert) {
-                            if (CompatHelper.isHybridAquaticLoaded() && entity instanceof ItemEntity itemEntity) {
-                                entity = CompatHelper.hybridAquaticPullEntity(itemEntity, player, this);
-                            }
+                        if (entity instanceof ItemEntity) {
                             this.level().addFreshEntity(entity);
                             if (stack.is(ItemTags.FISHES)) player.awardStat(Stats.FISH_CAUGHT, 1);
                         }

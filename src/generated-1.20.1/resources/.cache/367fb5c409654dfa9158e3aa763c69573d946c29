@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-05T19:40:34.4446516	Tide/Recipes
+// 1.20.1	2026-01-08T16:39:55.5704126	Tide/Recipes
 3276e90d458094c88e69fa67ffd7a3010ad5132e data\tide\recipes\enchanted_pocket_watch.json
 12a9964473dce48f4410e3442bd5da9548cd8457 data\tide\advancements\recipes\decorations\angling_table.json
 58b83e1bd9a95c5baec9885f9a08a97f87351acb data\tide\recipes\small_cooked_fish_campfire_cooking.json
@@ -94,6 +94,7 @@ a9a650c70ae8aae820f1359b2dcd02512a6f60a1 data\tide\advancements\recipes\misc\bob
 4dcc22394c82ced3fa4e3b8f46025b7ffdbf064c data\tide\recipes\iron_from_tetra.json
 2d2fcc608bc47ff8b832f0311e6846f99c918604 data\tide\recipes\bobbers\green.json
 6989e5e6636fb8fb8599f32b07982bbf7fabc070 data\tide\advancements\recipes\misc\bobbers\pearl.json
+779b831338e37728875cb0e09aec783a22b08414 data\tide\advancements\recipes\tools\golden_line.json
 7aca65cdb237ea55db13bf0f629f73a572e37166 data\tide\advancements\recipes\food\large_cooked_fish_smoking.json
 586bc224949e5d2f95c5722b1b9d56d04295ae05 data\tide\recipes\cooked_fish_campfire_cooking.json
 f97a03b4dcbcad171f04f3c7e5a9ce7b736ea44e data\tide\advancements\recipes\food\cooked_fish_slice_smoking.json
@@ -113,7 +114,6 @@ ffb34357ce74eddf9fd115293e389669e561fa65 data\tide\recipes\bobbers\gray.json
 87c57c187e48ebb669cd26a6709e36aa4bab9337 data\tide\recipes\midas_rod_smithing.json
 c46dddca3f2fb500311f059c05388968c4361a3a data\tide\recipes\fishing_journal.json
 d80f26c79424c1e29edcdcb1484046f4254ae707 data\tide\recipes\jelly_torch_from_jellyfish.json
-800736b7b9210d4f423253371b88b8f1fb465789 data\tide\recipes\fortune_line.json
 c82250d4a0b43abce5467359bc32e5750eaa8864 data\tide\recipes\diamond_rod_smithing.json
 4c7d416b01d3e812e75e73a669747cfd00630392 data\tide\recipes\large_cooked_fish_smelting.json
 d3d271f751ca318806b4cd52ab64724a24999918 data\tide\advancements\recipes\misc\bobbers\netherite.json
@@ -122,7 +122,7 @@ d3d271f751ca318806b4cd52ab64724a24999918 data\tide\advancements\recipes\misc\bob
 2da10b18c52879c3184e955cb179d5c6dcefcc7e data\tide\recipes\fish_display.json
 ebfde79bc397dc93b3a533e3e56b413bec4a0b49 data\tide\recipes\pearl_from_enderfin.json
 6c62109c65ebf362b431e9e0aca032646450469c data\tide\recipes\cooked_fish_smelting.json
-f39ab0ed42b1c024160bed22a8165312b2d09b23 data\tide\recipes\thermometer.json
+eefc5ec00d45e40e93fbb2ff83ab4f4253661b47 data\tide\recipes\thermometer.json
 76f3e97e0c082efa20dbe3d765276f6306bd22a7 data\tide\recipes\eye_from_endergazer.json
 89353e9532248e85e6782f107f6c79d467a7282e data\tide\advancements\recipes\misc\bobbers\golden_apple.json
 d8d0a0881ac85ae35ae741ee0e4a363f434cf291 data\tide\recipes\wooden_crate.json
@@ -150,7 +150,6 @@ f98d52b65db7c856800dca62d288db923c471d67 data\tide\advancements\recipes\food\coo
 db0cbe6d254923d48dd043526149e240fa924985 data\tide\recipes\cooked_fish_slice_campfire_cooking.json
 0567afd1f64ecd225bfb6061da8d80bee84a5fe4 data\tide\recipes\lucky_bait.json
 6887ae62e5a50ea6648957ec3b666b42f41fdbb0 data\tide\recipes\bobbers\amethyst.json
-1e96907c62f3ab7d3fd46af6213fd96d3e4c8795 data\tide\advancements\recipes\tools\fortune_line.json
 70545515460f169dd08e7a7e8cdbec8bc7f97818 data\tide\recipes\void_fishing_hook.json
 9ed89e3bf5460e761c86706f5599519f2ce0ebc0 data\tide\recipes\starlight_bow.json
 7901823f7be6c5adf4c619b8fc0ecd5d48de4811 data\tide\recipes\small_cooked_fish_smoking.json
@@ -166,6 +165,7 @@ e76a80e46bdaa9db43c2301f8425589d6dd8b9da data\tide\recipes\bobbers\red.json
 bde31291da38fc848ada9fb145ec82dd8015b6ca data\tide\advancements\recipes\tools\iron_fishing_hook.json
 b98fc0059f6c3a06fcc396005809fb12fcc950a3 data\tide\recipes\bobbers\black.json
 f8f78a757adc2710b1ca390814a82e021cc002c7 data\tide\recipes\fish_satchel.json
+62a235e196157ca54c699e5604245c49eb623ff9 data\tide\recipes\golden_line.json
 4adc27e5836382172b89f1f3d0f1e338c8c12cea data\tide\recipes\gold_rod_smithing.json
 3058638f75b743f19a88da94ef20c1e64722b8e1 data\tide\advancements\recipes\misc\bobbers\lime.json
 8bf4c20f20d4d8a5e065c7991a1e2acb87cd8910 data\tide\advancements\recipes\tools\crystal_rod_smithing.json

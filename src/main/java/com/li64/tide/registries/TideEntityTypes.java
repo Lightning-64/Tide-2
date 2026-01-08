@@ -18,10 +18,13 @@ import net.minecraft.world.item.component.CustomData;
 import net.minecraft.core.component.DataComponents;
 //?}
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class TideEntityTypes {
     public static final HashMap<String, EntityType<?>> ENTITY_TYPES = new HashMap<>();
+    public static final List<EntityType<?>> FISH_ENTITIES = new ArrayList<>();
 
     public static final EntityType<TideFishingHook> FISHING_BOBBER = register(
             "fishing_bobber", EntityType.Builder.<TideFishingHook>of(TideFishingHook::new, MobCategory.MISC)
@@ -62,6 +65,7 @@ public class TideEntityTypes {
         // construct entity type
         EntityType<T> entityType = (EntityType<T>) register(key, ENTITY_TYPES
                 .computeIfAbsent(key, k -> data.createEntityBuilder().build(k)));
+        if (Tide.PLATFORM.isDevEnvironment()) FISH_ENTITIES.add(entityType);
 
         // build and register attributes
         TideEntityAttributes.registerAttributes(entityType, data.attributesBuilder().build());

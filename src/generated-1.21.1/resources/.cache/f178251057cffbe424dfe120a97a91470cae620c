@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-05T19:34:41.256683	Tide/Item Tags
+// 1.21.1	2026-01-08T16:34:07.2105509	Tide/Item Tags
 20c22439a081d44c87dcd484248d55541ce3dc66 data\stardew_fishing\tags\item\legendary_fish.json
 774560bc1c797fc50cda13337b5934297bda3177 data\tide\tags\item\bobbers.json
 879427138899641203ab2cce1429dd2deb009523 data\c\tags\item\foods\raw_fish.json
@@ -13,21 +13,21 @@ dc8014c1015ed3a7f7b9cc1afbcae7c7e9a30c6c data\stardew_fishing\tags\item\starts_m
 627b4e7678b67d7119f535d9c21ca03d163c0997 data\tide\tags\item\lava_buckets.json
 dc8014c1015ed3a7f7b9cc1afbcae7c7e9a30c6c data\minecraft\tags\item\fishes.json
 b0bfa4d18f7f7e0a2b2d1d516117e17586c7401e data\minecraft\tags\item\enchantable\foot_armor.json
-00796d7e0e4190e458803a198ed652ddf6f7d2ac data\minecraft\tags\item\enchantable\fishing.json
 8f5b93a9547f792db798f2523aace39576d6338b data\minecraft\tags\item\cat_food.json
+00796d7e0e4190e458803a198ed652ddf6f7d2ac data\minecraft\tags\item\enchantable\fishing.json
 b0bfa4d18f7f7e0a2b2d1d516117e17586c7401e data\minecraft\tags\item\foot_armor.json
-56b20d147a1622120e4953211e35cc89ad37c106 data\tide\tags\item\cookable_fish.json
+8d6e3cc48134140b2b0d77d1c47d27d463a85e10 data\tide\tags\item\cookable_fish.json
 3a4cacae65cf5bd790d55cfeb5ccc3b466b48b3b data\minecraft\tags\item\enchantable\bow.json
 28316214217daa5e11ca40eee1044e02a073c450 data\minecraft\tags\item\enchantable\sword.json
+1b47c9f181324707d9b70926d1dae1efe9da571d data\tide\tags\item\cooked_fish.json
 10847f9868c43d042b6a5f0197c406f04ce228ef data\minecraft\tags\item\enchantable\durability.json
-f14086b2facef776f468b7d655bd7d3b31e9501e data\tide\tags\item\cooked_fish.json
 28316214217daa5e11ca40eee1044e02a073c450 data\minecraft\tags\item\swords.json
 9848e89ff245bbfdc2c682369771182a82878a8b data\tide\tags\item\vanilla_fish.json
 d6f20dfb49b76604c8e36f436db481f96e4f5997 data\tide\tags\item\legendary_fish.json
 73fcee4bed7eaa93c68292cb3967eeedadcf6dea data\minecraft\tags\item\lectern_books.json
 783fd8574c44859a1175a6d505d65f88bb18dcaa data\tide\tags\item\cookable\large_cooked_fish.json
 3a4cacae65cf5bd790d55cfeb5ccc3b466b48b3b data\c\tags\item\tools\bow.json
-c252bdb0e7d945cd99663b13e1865c9027246481 data\tide\tags\item\lines.json
+8e9df211431892d1e4f2f3f3c0a7e2f0f44e5b93 data\tide\tags\item\lines.json
 f79162f1c7a7a17208a5279126c2a1c5d5f7a352 data\tide\tags\item\fishing_rods.json
 9ae39c635b6bec40441563f7031e8602b45fc23d data\c\tags\item\foods\cooked_fish.json
 00796d7e0e4190e458803a198ed652ddf6f7d2ac data\forge\tags\item\tools\fishing_rods.json
