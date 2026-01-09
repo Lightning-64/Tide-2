@@ -1,4 +1,9 @@
 {
+  "accessory.item.hybrid-aquatic.barbed_hook": "倒刺钩",
+  "accessory.item.hybrid-aquatic.creepermagnet_hook": "苦力怕磁铁钩",
+  "accessory.item.hybrid-aquatic.glowing_hook": "荧光钓钩",
+  "accessory.item.hybrid-aquatic.magnetic_hook": "磁石钓钩",
+  "accessory.item.hybrid-aquatic.ominous_hook": "不祥钓钩",
   "accessory.item.tide.amethyst_fishing_bobber": "紫水晶浮漂",
   "accessory.item.tide.apple_fishing_bobber": "苹果浮漂",
   "accessory.item.tide.black_fishing_bobber": "黑色浮漂",
@@ -26,7 +31,7 @@
   "accessory.item.tide.lavaproof_fishing_hook": "防熔岩钓钩",
   "accessory.item.tide.lichen_fishing_bobber": "地衣浮漂",
   "accessory.item.tide.light_blue_fishing_bobber": "淡蓝色浮漂",
-  "accessory.item.tide.light_gray_fishing_bobber": "淡蓝色浮漂",
+  "accessory.item.tide.light_gray_fishing_bobber": "淡灰色浮漂",
   "accessory.item.tide.lime_fishing_bobber": "黄绿色浮漂",
   "accessory.item.tide.magenta_fishing_bobber": "品红色浮漂",
   "accessory.item.tide.nautilus_fishing_bobber": "鹦鹉螺浮漂",
