@@ -1,0 +1,46 @@
+{
+	"credit": "Created by FreshLX for Fresh Animations, adapted by pnku for Lightning 64's Tide's FA Compatibility",
+	"animations": [
+		{
+			"varb.fcc": "frame_counter == var.frame_counter_prev",
+			"varb.is_display": "pos_x == 0 && pos_y == 0 && pos_z == 0",
+			"var.not_display_bit": "if( varb.is_display, 0, 1 )",
+			"var.hy": "clamp(head_yaw,-90,90) * clamp( 1-abs( var.position-pos_y )*2, 0, 1 )",
+			"var.r": "random(id)*pi*4",
+			"var.up": "var.up +abs( var.pre_posy-pos_y )",
+			"var.ls": "var.r +limb_swing*1.6 +age/6 +var.up*4",
+			"var.ft": "limb_swing/1.5 +age/3",
+			"var.m": "clamp( limb_speed*3 +abs( var.position-pos_y ), 0, 1 )",
+			"var.waves": "pos_x*1.5 +pos_y*2 +pos_z*1.5 +age/17",
+			"var.water": "clamp( if( varb.fcc, var.water, is_in_water, var.water +1 *frame_time, var.water -2 *frame_time ), 0, 1 )",
+			"var.position": "if( varb.fcc, var.position, age<9, pos_y, pos_y*min(1,frame_time*6) +var.position*max(0,1-frame_time*6) )",
+			"var.Created_by_FreshLX_for_Fresh_Animations": "1"
+		},
+		{
+			"body.ty": "22 + 0.25*(1 - var.not_display_bit)",
+			"body2.ry": "( sin( var.ls )/7*(0.7+var.m*1.3) +torad(var.hy)/2                  )*var.water -cos( var.ft )/4  *(1-var.water)*var.not_display_bit",
+			"tail2.ry": "(-cos( var.ls )/3*(0.7+var.m*1.3) +clamp(torad(var.hy), -pi/5, pi/5))*var.water -sin( var.ft )*1.3*(1-var.water)*var.not_display_bit",
+			"tail2.rz": "(-sin( var.ls )/5*(0.7+var.m*1.3) +clamp(torad(var.hy), -pi/5, pi/5))*var.water -sin( var.ft )/2  *(1-var.water)*var.not_display_bit + torad(-90*(1-var.not_display_bit))",
+			"tail2.tx": "( sin( var.ls )/4*(0.7+var.m*1.3) +clamp(torad(var.hy), -1, 1)      )*var.water -cos( var.ft )    *(1-var.water)*var.not_display_bit - 0.5*(1-var.not_display_bit)",
+			"tail2.ty": "-0.5*var.not_display_bit",
+			"body2.tx": "( cos( var.ls )/3*(0.7+var.m*1.3)                                   )*var.water -cos( var.ft )    *(1-var.water)*var.not_display_bit",
+			"body2.ty": "-0.5",
+			"body2.rx": "clamp( ( var.position-pos_y )*1.5, -1.5, 1.5 )*var.not_display_bit",
+			"tail2.rx": "( torad(-10)*max(0,1-var.m*2)       -sin( var.waves )/10 )*var.water -sin( var.ft )*var.not_display_bit/6*(1-var.water)*var.not_display_bit",
+			"body2.rz": "( sin( var.ft/6 +sin( var.ft/3 )*1.2 )*pi/2 )*(1-var.water)*var.not_display_bit",
+			"body2.sx": "1 +(0.5-random(id))*var.not_display_bit/3",
+			"body2.sy": "body2.sx",
+			"body2.sz": "body2.sx"
+		},
+		{
+			"left_fin.ry": " torad( 5 *var.not_display_bit) +(  cos(torad(30)+var.r+limb_swing/2+age/1.1)/4*max(0,1-var.m*2) )*var.water",
+			"right_fin.ry": "torad(-5 *var.not_display_bit) +( -sin(torad(30)+var.r+limb_swing/2+age/1  )/4*max(0,1-var.m*2) )*var.water",
+			"left_fin.rz": " torad( 15) +(  sin(          var.r+limb_swing/2+age/1.1)/2*max(0,1-var.m*2) +(torad( 10) -sin( var.ls )/3)*min(1,var.m*2) )*var.water +sin(age)/2*(1-var.water)*var.not_display_bit",
+			"right_fin.rz": "torad(-15) +(  cos(          var.r+limb_swing/2+age/1  )/2*max(0,1-var.m*2) +(torad(-10) -sin( var.ls )/3)*min(1,var.m*2) )*var.water -sin(age)/2*(1-var.water)*var.not_display_bit"
+		},
+		{
+			"var.pre_posy": "pos_y",
+			"var.frame_counter_prev": "frame_counter"
+		}
+	]
+}
