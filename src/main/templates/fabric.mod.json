@@ -3,7 +3,16 @@
    "id": "${mod_id}",
    "name": "${mod_name}",
    "version": "${mod_version}",
+   "icon": "${mod_id}.png",
    "description": "${mod_description}",
+   "contact": {
+      "homepage": "${mod_homepage}",
+      "issues": "${mod_issue_tracker}"
+   },
+   "authors": [
+      "${mod_author}"
+   ],
+   "license": "${mod_license}",
    "environment": "*",
    "entrypoints": {
       "main": [

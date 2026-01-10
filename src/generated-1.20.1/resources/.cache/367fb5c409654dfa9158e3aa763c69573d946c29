@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-08T16:39:55.5704126	Tide/Recipes
+// 1.20.1	2026-01-09T15:26:12.7919481	Tide/Recipes
 3276e90d458094c88e69fa67ffd7a3010ad5132e data\tide\recipes\enchanted_pocket_watch.json
 12a9964473dce48f4410e3442bd5da9548cd8457 data\tide\advancements\recipes\decorations\angling_table.json
 58b83e1bd9a95c5baec9885f9a08a97f87351acb data\tide\recipes\small_cooked_fish_campfire_cooking.json
@@ -15,8 +15,8 @@ dfd78e012f61832b69d9789884d99d83755c9943 data\tide\advancements\recipes\food\lar
 887310834bbd9968ed39cdac6348b320e8461aa5 data\tide\recipes\bobbers\enchanted_golden_apple.json
 33aff5c8b574b7c8e4d571d6bd8e24096b317326 data\tide\advancements\recipes\food\cooked_fish_slice_smelting.json
 62d184d21e172e54537ca02338faf3173bd20037 data\tide\advancements\recipes\tools\iron_rod_smithing.json
-c231990a78dddc87bab3f9e14866ac60af0d7a57 data\tide\advancements\recipes\misc\bone_meal_from_fish_bone.json
 281a909d32171c1e3e523705e07df41757ae121c data\tide\advancements\recipes\misc\iron_from_tetra.json
+c231990a78dddc87bab3f9e14866ac60af0d7a57 data\tide\advancements\recipes\misc\bone_meal_from_fish_bone.json
 52bd1f6bbc87e0129be637e55ea9a73696ff9498 data\tide\advancements\recipes\food\small_cooked_fish_smoking.json
 e35dbb568d2eeb57e7966221ae8b7abba7f63489 data\tide\recipes\bobbers\yellow.json
 89c9d16d6e6b9fc6477f597bca9bcb18e80fb1b8 data\tide\recipes\amethyst_from_shrimp.json
@@ -43,8 +43,8 @@ edef25cf143534216baf6ab09cfe4d61de628db9 data\tide\advancements\recipes\food\sma
 437980c8142002fc3eceba581528230ab69a6aeb data\tide\advancements\recipes\misc\bobbers\magenta.json
 44bf7646d7e03cfd9ecb79f5e7ee2466754f81bc data\tide\advancements\recipes\misc\bobbers\heart.json
 7f98fef957d6c377710e9866ab2106006981cb75 data\tide\advancements\recipes\misc\pearl_from_enderfin.json
-d423687d659c16859424175cb6ebf9a2bab5e8c8 data\tide\recipes\grilled_tuna_smoking.json
 0031976bd8657c8ac326f53e6812b90dda5e9055 data\tide\advancements\recipes\food\cooked_fish_campfire_cooking.json
+d423687d659c16859424175cb6ebf9a2bab5e8c8 data\tide\recipes\grilled_tuna_smoking.json
 a6adf26a828ffda841d181e82cbf30bcb83c55ee data\tide\advancements\recipes\misc\bobbers\light_gray.json
 e7332da4d7a414dbf5192e368dc8b97b98139620 data\tide\advancements\recipes\misc\bobbers\feather.json
 1203cc4fa05740b38df9cf2279412b148adab0d1 data\tide\advancements\recipes\misc\bobbers\cyan.json

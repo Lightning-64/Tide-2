@@ -108,7 +108,7 @@ Same as previous
 
 ---
 
-## Changelog - Tide v2.0 Playtest 1
+## Tide v2.0 - 1/9/26
 
 ---
 ### Fishing Loot

@@ -40,6 +40,8 @@ modstitch {
         modVersion = "2.0"
         modGroup = "com.li64.tide"
         modAuthor = "Lightning64"
+        modDescription = "Expands the fishing system and adds 100+ new fish."
+        modLicense = "MPL-2.0"
 
         fun <K, V> MapProperty<K, V>.populate(block: MapProperty<K, V>.() -> Unit) {
             block()
@@ -48,6 +50,7 @@ modstitch {
         replacementProperties.populate {
             // You can put any other replacement properties/metadata here that
             // modstitch doesn't initially support. Some examples below.
+            put("mod_homepage", "https://www.curseforge.com/minecraft/mc-mods/tide")
             put("mod_issue_tracker", "https://github.com/Lightning-64/Tide-2/issues")
             put("pack_format", when (property("deps.minecraft")) {
                 "1.20.1" -> 15

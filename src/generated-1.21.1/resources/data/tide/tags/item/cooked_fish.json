@@ -2,9 +2,9 @@
   "values": [
     "minecraft:cooked_cod",
     "minecraft:cooked_salmon",
-    "tide:cooked_fish",
-    "tide:large_cooked_fish",
     "tide:small_cooked_fish",
-    "tide:grilled_tuna"
+    "tide:large_cooked_fish",
+    "tide:grilled_tuna",
+    "tide:cooked_fish"
   ]
 }

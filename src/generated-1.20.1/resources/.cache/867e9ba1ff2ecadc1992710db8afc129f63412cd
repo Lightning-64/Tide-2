@@ -1,12 +1,12 @@
-// 1.20.1	2026-01-08T16:39:55.5761462	Tide/minecraft:entity Loot Table
+// 1.20.1	2026-01-09T15:26:12.7929488	Tide/minecraft:entity Loot Table
 59a28b2f4eb1be55999e5365c3e5c3ffe7840feb data\tide\loot_tables\entities\crimson_fangjaw.json
 577bd7007392f66dd35c0b03b82724c5bc829b8e data\tide\loot_tables\entities\aquathorn.json
 1bfe69e98c5f79bdc5b894294b0a08cd9cccad46 data\tide\loot_tables\entities\sand_tiger_shark.json
 68b5bbb029308acaff2d19b726847bce2839f1dd data\tide\loot_tables\entities\snatcher_squid.json
 bc9228b6201d629ca19ae77693a605a85cc77f69 data\tide\loot_tables\entities\glowfish.json
 323783beba7d395cc9169bfed869adeb129ceb2d data\tide\loot_tables\entities\deep_blue.json
-5d576847e9f4781b21cd71c70bb72fa87de8472a data\tide\loot_tables\entities\ender_glider.json
 6cb45ca6402c95d2903636cc1887175d780cab71 data\tide\loot_tables\entities\pale_clubfish.json
+5d576847e9f4781b21cd71c70bb72fa87de8472a data\tide\loot_tables\entities\ender_glider.json
 8a71ee2c0de54140f8b42b35bd397531b94c25e3 data\tide\loot_tables\entities\black_crappie.json
 4fa97af506f568ac590d39563e859f7f980dadb0 data\tide\loot_tables\entities\midas_fish.json
 a85a0b66906b4bd069b68c0d3e8c852216bcae05 data\tide\loot_tables\entities\pike.json
