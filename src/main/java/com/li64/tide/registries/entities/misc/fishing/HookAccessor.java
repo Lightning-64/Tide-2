@@ -25,8 +25,7 @@ public class HookAccessor extends FishingHook {
 
     private boolean checkIsUnlinked() {
         if (hook != null) return false;
-        super.remove(RemovalReason.DISCARDED);
-        Tide.LOG.error("Hook accessor unexpectedly unlinked from Tide fishing hook");
+        Tide.LOG.error("Hook accessor unexpectedly unlinked from Tide fishing hook!");
         return true;
     }
 
