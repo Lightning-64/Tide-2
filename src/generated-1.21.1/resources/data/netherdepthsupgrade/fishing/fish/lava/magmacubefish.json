@@ -20,8 +20,8 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:magmacubefish",
-    "y": 0.05,
-    "z": -0.15
+    "roll": 85.0,
+    "z": 0.02
   },
   "fish": "netherdepthsupgrade:magmacubefish",
   "journal_profile": {

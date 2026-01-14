@@ -23,6 +23,11 @@
     "rarity": "rare"
   },
   "selection_weight": 14.0,
+  "size": {
+    "record_high_cm": 100.0,
+    "typical_high_cm": 60.0,
+    "typical_low_cm": 35.0
+  },
   "speed": 1.45,
   "strength": 0.65
 }

@@ -20,11 +20,10 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:eyeball_fish",
-    "roll": -90.0,
+    "roll": 90.0,
     "shape": "3x1",
     "x": 1.0,
-    "y": -0.43,
-    "z": 0.05
+    "y": 0.125
   },
   "fish": "netherdepthsupgrade:eyeball_fish",
   "journal_profile": {

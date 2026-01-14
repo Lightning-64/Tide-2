@@ -5,6 +5,13 @@
     {
       "type": "tide:found_in_structures",
       "structures": [
+        "minecraft:monument",
+        "betteroceanmonuments:ocean_monument"
+      ]
+    },
+    {
+      "type": "tide:found_in_structures",
+      "structures": [
         "minecraft:monument"
       ]
     },

@@ -1,11 +1,11 @@
-// 1.20.1	2026-01-09T15:26:12.7849479	Tide/Item Tags
+// 1.20.1	2026-01-13T21:55:16.2073151	Tide/Item Tags
 f1e6836e5d94439531279a5afd42474e7763927b data\tide\tags\items\fishing_rods.json
 80e56f6effead78902dc0cc2c37c79e264d399c5 data\tide\tags\items\vanilla_fish.json
 d60d816a6193bf5814acbe09b920015e950dc861 data\stardew_fishing\tags\items\legendary_fish.json
 ecd594e19b47c76fc5097074f8b83e03ed2514eb data\c\tags\items\foods\raw_fish.json
 31985b715c0b8ffcce6a3bc683c627b542377987 data\tide\tags\items\lines.json
 1a24d4683fb35e155fe4af5f8cc43a15f2320008 data\tide\tags\items\cookable\large_cooked_fish.json
-b00075ff79d5a084bbec085adcba6c044b094e8d data\tide\tags\items\cooked_fish.json
+df7792bcccc670cc882cab9cf9f53054b61285c2 data\tide\tags\items\cooked_fish.json
 41d33a50b09369657700874775d37bb683f5e70c data\tide\tags\items\cookable\cooked_fish.json
 89bdb6d6846eb56b45c82abd8ba27854182b44d3 data\forge\tags\items\tools\fishing_rods.json
 e988f438cc0a136971c30f6223dd2cd0731ab048 data\tide\tags\items\lava_buckets.json
@@ -20,7 +20,7 @@ ea9667b77b5dc3054cfce245558aa8621cc2b41e data\tide\tags\items\cookable\small_coo
 f34ce263bf2581957f93a5db54b0847cc5fbd4f9 data\c\tags\items\foods\cooked_fish.json
 1cd6d17c156eed4a9351ec4cad7f379b65e1cfc4 data\tide\tags\items\crates.json
 d5a71f782adf7372ad4dcd4d6530d6db182caaad data\c\tags\items\tools\bow.json
-08050cc2c9c9c25317df1d19fada320a127f131c data\tide\tags\items\cookable_fish.json
+59ba687d76cb56f82193669063760b569159936a data\tide\tags\items\cookable_fish.json
 79022dbdaf4d0b8d903d110bd486afba8bf97b82 data\tide\tags\items\hooks.json
 36a3c46f5f097047e0b582f162765aebc0139539 data\minecraft\tags\items\swords.json
 b4f9f513d9f679c5e44b4a3cb979bd734ce0e1a4 data\stardew_fishing\tags\items\starts_minigame.json

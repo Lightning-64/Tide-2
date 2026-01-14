@@ -1,8 +1,8 @@
-// 1.21.1	2026-01-12T17:42:14.7099601	Tide/Block Loot Tables
+// 1.21.1	2026-01-13T21:30:38.9874161	Tide/Block Loot Tables
 700b39f8dc9848f83eeba35c11669525854fb7fd data\tide\loot_table\blocks\obsidian_crate.json
 d8f3f1300537e51f8564331bc780a240fd6f26ce data\tide\loot_table\blocks\purpur_crate.json
 5189202eac04d74f05c754f2e64cba92098e4409 data\tide\loot_table\blocks\fish_display.json
 54ab03d25cc51bc1701999dd71f872c0c978a915 data\tide\loot_table\blocks\jelly_torch.json
-38d0d5ce6f313fc8a9a06a2498f63755edd4dae0 data\tide\loot_table\blocks\wooden_crate.json
 a9928e758ad0dd1d23468825c064247eec1617ab data\tide\loot_table\blocks\angling_table.json
+38d0d5ce6f313fc8a9a06a2498f63755edd4dae0 data\tide\loot_table\blocks\wooden_crate.json
 54ab03d25cc51bc1701999dd71f872c0c978a915 data\tide\loot_table\blocks\jelly_wall_torch.json

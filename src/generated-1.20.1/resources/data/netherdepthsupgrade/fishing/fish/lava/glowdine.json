@@ -19,10 +19,9 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:glowdine",
-    "roll": -90.0,
-    "x": 0.05,
+    "x": -0.05,
     "y": -0.1,
-    "z": 0.15
+    "z": 0.05
   },
   "fish": "netherdepthsupgrade:glowdine",
   "journal_profile": {

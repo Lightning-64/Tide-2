@@ -1,17 +1,22 @@
-## Tide v2.0.1 - 1/12/26
+## Tide v2.0.1 - 1/13/26
 
 ---
 ### Changes
 - Names of unlocked fish in the journal can be viewed by hovering over their icons
 - Fish size data is now entirely optional instead of defaulting to predefined parameters
+- Aquathorn can now be caught in the ocean monument structure from Better Ocean Monuments
+- Improved display positioning of the Nether Depths Upgrade fish
+- Added `tide:has_enchantments` fishing condition
+- Added optional `show_in_journal` property to the fish data JSON format
+- Added optional `nbt` property to the `display` section in the fish data JSON format
 - Added a blacklist for auto-generated fish data in the config
+- Added a blacklist for the enchanted pocket watch in the config
+  - Also added the `tide:ignores_pocket_watch` entity tag, an additional blacklist
 - Added a toggle for the Chasm Eel item's functionality in the config
-- Added `tide:ignores_pocket_watch` entity tag, a blacklist for the Enchanted Pocket Watch
-- Enemies frozen by the Enchanted Pocket Watch will stay frozen if the world is reloaded (TODO)
 
 ---
 ### Fixes
-- Fixed a crash when reeling in a fishing rod with Valkyrian Skies installed
+- Fixed a crash when reeling in a fishing rod with Valkyrian Skies present
 - Fixed a bug where the Starlight Bow's ammo conservation was applied to other weapons
 
 ## Tide v2.0 - Playtest 6

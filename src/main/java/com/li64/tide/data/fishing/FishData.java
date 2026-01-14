@@ -40,7 +40,10 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 
-/*? if <1.21*//*import com.li64.tide.data.ValidatableDataEntry;*/
+/*? if <1.21 {*/
+/*import com.li64.tide.data.ValidatableDataEntry;
+import java.util.function.Function;
+*///?}
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -52,9 +55,10 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
                        List<FishingModifier> modifiers,
                        double weight, double quality,
                        float strength, float speed,
+                       boolean showInJournal,
+                       ProfileData profile,
                        MinigameBehavior behavior,
                        Optional<SizeData> size,
-                       ProfileData profile,
                        Optional<DisplayData> display,
                        Optional<Holder<Item>> parent) implements FishingEntry/*? if <1.21 {*//*, ValidatableDataEntry*//*?}*/ {
     public static LootTable VANILLA_FISH_TABLE;
@@ -73,9 +77,10 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
             Codec.DOUBLE.optionalFieldOf("selection_quality", 0.0).forGetter(FishData::quality),
             Codec.FLOAT.optionalFieldOf("strength", 0.3f).forGetter(FishData::strength),
             Codec.FLOAT.optionalFieldOf("speed", 1.0f).forGetter(FishData::speed),
+            Codec.BOOL.optionalFieldOf("show_in_journal", true).forGetter(FishData::showInJournal),
+            ProfileData.CODEC.optionalFieldOf("journal_profile", new ProfileData()).forGetter(FishData::profile),
             MinigameBehavior.CODEC.optionalFieldOf("behavior", MinigameBehavior.SINE).forGetter(FishData::behavior),
             SizeData.CODEC.optionalFieldOf("size").forGetter(FishData::size),
-            ProfileData.CODEC.optionalFieldOf("journal_profile", new ProfileData()).forGetter(FishData::profile),
             DisplayData.CODEC.optionalFieldOf("display_data").forGetter(FishData::display),
             BuiltInRegistries.ITEM.holderByNameCodec().optionalFieldOf("parent").forGetter(FishData::parent)
     ).apply(instance, FishData::new));
@@ -183,6 +188,10 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
     }
     *///?}
 
+    public boolean hasJournalEntry() {
+        return this.isOriginal() && this.showInJournal();
+    }
+
     public boolean isOriginal() {
         return this.parent().isEmpty();
     }
@@ -279,8 +288,8 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
             return condition(new FishingMediumCondition(medium));
         }
 
-        public Builder foundIn(ResourceKey<Structure> trialChambers) {
-            return condition(StructuresCondition.only(trialChambers));
+        public Builder inStructure(ResourceKey<Structure> structure) {
+            return condition(StructuresCondition.only(structure));
         }
 
         public Builder foundIn(List<TagKey<Biome>> foundIn) {
@@ -470,9 +479,10 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
                     ImmutableList.copyOf(conditions),
                     ImmutableList.copyOf(modifiers),
                     weight, quality,
-                    strength, speed, behavior,
+                    strength, speed,
+                    true,
+                    profile.build(), behavior,
                     Optional.ofNullable(size),
-                    profile.build(),
                     Optional.ofNullable(display),
                     Optional.ofNullable(parent)
             );

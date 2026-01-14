@@ -20,11 +20,13 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:wither_bonefish",
-    "roll": -135.0,
+    "pitch": -5.0,
+    "roll": -45.0,
     "shape": "2x1",
     "x": 0.08,
     "y": -0.1,
-    "z": 0.3
+    "yaw": -5.0,
+    "z": 0.275
   },
   "fish": "netherdepthsupgrade:wither_bonefish",
   "journal_profile": {

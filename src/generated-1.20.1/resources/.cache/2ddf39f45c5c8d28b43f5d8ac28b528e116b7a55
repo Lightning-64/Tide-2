@@ -1,13 +1,13 @@
-// 1.20.1	2026-01-09T15:26:12.785948	Tide/Advancements
+// 1.20.1	2026-01-13T21:55:16.2088256	Tide/Advancements
 5f5e73259f4effc3885705254da3d97c05ff31d9 data\tide\advancements\fish_in_lava.json
-75bb0d6dd10ec499dbfe0bb7c94dd09dafab336d data\tide\advancements\catch_legendary.json
 d428465cd6d91c4283099ab764e7381e8743b263 data\tide\advancements\journal_completed.json
 b9b9ab62b5d37aeb4950fefe63ff1788594c8041 data\tide\advancements\fish_in_void.json
+75bb0d6dd10ec499dbfe0bb7c94dd09dafab336d data\tide\advancements\catch_legendary.json
 a3e15f43f31d3240449e02e07a803917d995827a data\tide\advancements\all_fishing_rods.json
 6bb3e29d53fa28d8582f453eae93d3e1e155b214 data\tide\advancements\pull_crate.json
 e72bf47ca48ed735b9d4a8af1d907a5030cad801 data\tide\advancements\journal_halfway_completed.json
 cd0be867f6d7fa4b69aaaf08b67eddd32cf37fe9 data\tide\advancements\get_bait.json
 26a07e1c6b95abd63ed56648997eba8738d8e26b data\tide\advancements\release_pupfish.json
 9da11e8b30faee8df62ebdff83ca8f066c17cc7e data\tide\advancements\catch_midas_with_midas_rod.json
-6cec76339237c2d1ee19d0ee969334dbef3523d9 data\tide\advancements\freeze_coelacanth.json
 d8ed004f88d8521a0647efffe03b9eb9a621ea21 data\tide\advancements\root.json
+6cec76339237c2d1ee19d0ee969334dbef3523d9 data\tide\advancements\freeze_coelacanth.json

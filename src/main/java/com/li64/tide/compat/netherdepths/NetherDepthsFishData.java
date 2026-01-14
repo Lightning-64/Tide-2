@@ -34,8 +34,8 @@ public class NetherDepthsFishData {
                 .journalGroup(JournalGroup.LAVA)
                 .journalRarity(FishRarity.COMMON)
                 .displayData(display -> display
-                        .offsets(0.15f, -0.1f, 0.15f)
-                        .rotation(-90f, 0f, 0f))
+                        .offsets(0.1f, 0f, 0.05f)
+                        .rotation(0f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "bonefish")
@@ -48,8 +48,8 @@ public class NetherDepthsFishData {
                 .journalGroup(JournalGroup.LAVA)
                 .journalRarity(FishRarity.COMMON)
                 .displayData(display -> display
-                        .offsets(0.1f, -0.1f, -0.1f)
-                        .rotation(-45f, 0f, 4f))
+                        .offsets(0.1f, 0f, 0.03f)
+                        .rotation(45f, 5.0f, -5.0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "lava_pufferfish")
@@ -62,7 +62,7 @@ public class NetherDepthsFishData {
                 .journalLocation("journal.info.location.lava")
                 .journalGroup(JournalGroup.LAVA)
                 .displayData(display -> display
-                        .offsets(0.03f, 0.0f, 0f)
+                        .offsets(0.0f, 0.0f, -0.05f)
                         .rotation(0f, 0f, 0f))
                 .build(output);
 
@@ -77,8 +77,8 @@ public class NetherDepthsFishData {
                 .journalRarity(FishRarity.UNCOMMON)
                 .displayData(display -> display
                         .shape(FishDisplayShape.SHAPE_2x1)
-                        .offsets(0.15f, -0.15f, 0.17f)
-                        .rotation(-90f, 0f, 0f))
+                        .offsets(0.15f, -0.15f, 0.05f)
+                        .rotation(0f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "magmacubefish")
@@ -92,8 +92,8 @@ public class NetherDepthsFishData {
                 .journalGroup(JournalGroup.LAVA)
                 .journalRarity(FishRarity.UNCOMMON)
                 .displayData(display -> display
-                        .offsets(0f, 0.05f, -0.15f)
-                        .rotation(0f, 0f, 0f))
+                        .offsets(0f, 0f, 0.02f)
+                        .rotation(85.0f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "glowdine")
@@ -106,8 +106,8 @@ public class NetherDepthsFishData {
                 .journalGroup(JournalGroup.LAVA)
                 .journalRarity(FishRarity.UNCOMMON)
                 .displayData(display -> display
-                        .offsets(0.05f, -0.1f, 0.15f)
-                        .rotation(-90f, 0f, 0f))
+                        .offsets(-0.05f, -0.1f, 0.05f)
+                        .rotation(0f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "soulsucker")
@@ -121,8 +121,8 @@ public class NetherDepthsFishData {
                 .journalRarity(FishRarity.RARE)
                 .displayData(display -> display
                         .shape(FishDisplayShape.SHAPE_3x1)
-                        .offsets(0.75f, -0.34f, 0.15f)
-                        .rotation(-90f, 0f, 6f))
+                        .offsets(0.75f, 0.1f, 0.05f)
+                        .rotation(90f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "wither_bonefish")
@@ -137,8 +137,8 @@ public class NetherDepthsFishData {
                 .journalRarity(FishRarity.RARE)
                 .displayData(display -> display
                         .shape(FishDisplayShape.SHAPE_2x1)
-                        .offsets(0.08f, -0.1f, 0.3f)
-                        .rotation(-135f, 0f, 0f))
+                        .offsets(0.08f, -0.1f, 0.275f)
+                        .rotation(-45.0f, -5.0f, -5.0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "blazefish")
@@ -151,8 +151,8 @@ public class NetherDepthsFishData {
                 .journalGroup(JournalGroup.LAVA)
                 .journalRarity(FishRarity.VERY_RARE)
                 .displayData(display -> display
-                        .offsets(0.1f, 0f, 0.36f)
-                        .rotation(180f, 0f, 0f))
+                        .offsets(0f, -0.7f, 0.15f)
+                        .rotation(0f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "fortress_grouper")
@@ -167,8 +167,8 @@ public class NetherDepthsFishData {
                 .displayData(display -> display
                         .entityType(Tide.resource(MOD_ID, "fortressgrouper"))
                         .shape(FishDisplayShape.SHAPE_3x1)
-                        .offsets(0.3f, -0.85f, 0f)
-                        .rotation(-90f, 0f, 0f))
+                        .offsets(0.3f, 0.2f, 0.2f)
+                        .rotation(90f, 0f, 0f))
                 .build(output);
 
         FishData.builder().fish(MOD_ID, "eyeball_fish")
@@ -183,8 +183,8 @@ public class NetherDepthsFishData {
                 .journalRarity(FishRarity.VERY_RARE)
                 .displayData(display -> display
                         .shape(FishDisplayShape.SHAPE_3x1)
-                        .offsets(1f, -0.43f, 0.05f)
-                        .rotation(-90f, 0f, 0f))
+                        .offsets(1f, 0.125f, 0f)
+                        .rotation(90f, 0f, 0f))
                 .build(output);
     }
 }

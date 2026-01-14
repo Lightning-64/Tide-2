@@ -20,7 +20,7 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:lava_pufferfish",
-    "x": 0.03
+    "z": -0.05
   },
   "fish": "netherdepthsupgrade:lava_pufferfish",
   "journal_profile": {

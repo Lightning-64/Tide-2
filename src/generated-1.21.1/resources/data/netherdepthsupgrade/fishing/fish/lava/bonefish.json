@@ -14,11 +14,11 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:bonefish",
-    "roll": -45.0,
+    "pitch": 5.0,
+    "roll": 45.0,
     "x": 0.1,
-    "y": -0.1,
-    "yaw": 4.0,
-    "z": -0.1
+    "yaw": -5.0,
+    "z": 0.03
   },
   "fish": "netherdepthsupgrade:bonefish",
   "journal_profile": {

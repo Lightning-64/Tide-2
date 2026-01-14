@@ -37,7 +37,7 @@ modstitch {
     metadata {
         modId = "tide"
         modName = "Tide"
-        modVersion = "2.0"
+        modVersion = "2.0.1"
         modGroup = "com.li64.tide"
         modAuthor = "Lightning64"
         modDescription = "Expands the fishing system and adds 100+ new fish."

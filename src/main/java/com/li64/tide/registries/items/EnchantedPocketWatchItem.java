@@ -1,5 +1,6 @@
 package com.li64.tide.registries.items;
 
+import com.li64.tide.Tide;
 import com.li64.tide.data.FreezableMob;
 import com.li64.tide.data.TideCriteriaTriggers;
 import com.li64.tide.data.TideTags;
@@ -30,8 +31,8 @@ public class EnchantedPocketWatchItem extends PocketWatchItem {
     @Override
     public @NotNull InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity target, InteractionHand hand) {
         if (!(target instanceof Mob mob) || !(target instanceof FreezableMob freezable)
-                || target.getType().is(TideTags.Entities.IGNORES_POCKET_WATCH)
-                || player.getCooldowns().isOnCooldown(this)) {
+                || player.getCooldowns().isOnCooldown(this) || target.getType().is(TideTags.Entities.IGNORES_POCKET_WATCH)
+                || Tide.CONFIG.items.pocketWatchBlacklist.contains(BuiltInRegistries.ENTITY_TYPE.getKey(target.getType()).toString())) {
             return super.interactLivingEntity(stack, player, target, hand);
         }
         if (!(player.level() instanceof ServerLevel level)) return InteractionResult.SUCCESS;

@@ -139,6 +139,9 @@ public final class TideConfig implements ConfigData {
 
         @ConfigEntry.Gui.Tooltip
         public boolean enableBedrockBreakingItems = true;
+
+        @ConfigEntry.Gui.Tooltip
+        public List<String> pocketWatchBlacklist = List.of();
     }
 
     public static class Journal {

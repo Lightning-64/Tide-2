@@ -51,8 +51,8 @@ public record FishDisplayRenderer(EntityRenderDispatcher entityRenderer) impleme
         if (entity == null || entity.getType() != entityType) {
             entity = entityType.create(Minecraft.getInstance().level);
             if (entity != null) {
-                if (CompatHelper.isHybridAquaticLoaded())
-                    CompatHelper.hybridAquaticApplyVariant(entity, display.getDisplayStack());
+                if (displayData.nbt().isPresent()) entity.load(displayData.nbt().get());
+                if (CompatHelper.isHybridAquaticLoaded()) CompatHelper.hybridAquaticApplyVariant(entity, display.getDisplayStack());
                 entity.xRotO = entity.getXRot();
                 entity.yRotO = entity.getYRot();
             }

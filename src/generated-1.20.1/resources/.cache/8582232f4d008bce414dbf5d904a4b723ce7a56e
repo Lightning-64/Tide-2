@@ -1,2 +1,3 @@
-// 1.20.1	2026-01-09T15:26:12.7839506	Tide/Entity Type Tags
+// 1.20.1	2026-01-13T21:55:16.2052777	Tide/Entity Type Tags
 ba5b2180b2c2a06ef012cbc29d9bdd38104c4dd3 data\minecraft\tags\entity_types\arrows.json
+b77538723d579bdf2004859a7dca2d8cda173540 data\tide\tags\entity_types\ignores_pocket_watch.json

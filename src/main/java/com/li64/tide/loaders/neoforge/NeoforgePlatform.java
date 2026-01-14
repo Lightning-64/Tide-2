@@ -23,7 +23,7 @@ public class NeoforgePlatform implements LoaderPlatform {
 
     @Override
     public String getMCVersion() {
-        /^? if 1.20.1^/ return "1.20.1";
+        /^? if 1.20.1^/ /^return "1.20.1";^/
         return "1.21.1";
     }
 

@@ -14,9 +14,8 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:blazefish",
-    "roll": 180.0,
-    "x": 0.1,
-    "z": 0.36
+    "y": -0.7,
+    "z": 0.15
   },
   "fish": "netherdepthsupgrade:blazefish",
   "journal_profile": {

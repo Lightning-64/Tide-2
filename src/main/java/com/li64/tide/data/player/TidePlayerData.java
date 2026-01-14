@@ -127,18 +127,23 @@ public class TidePlayerData {
     }
 
     public void logCatch(ItemStack stack, ServerPlayer player, Level level) {
-        Holder<Item> fish = FishData.get(stack).orElseThrow().fish();
+        FishData data = FishData.get(stack).orElse(null);
+        if (data == null) return;
+
+        Holder<Item> fish = data.fish();
         if (this.unlockFish(fish, player)) TideUtils.showFishToast(stack, player);
 
         FishPlayerData playerData = fishPlayerData.get(fish);
         FishStats stats = playerData == null ? new FishStats() : playerData.stats.orElse(new FishStats());
-        double fishLength = 0;
-        if (TideItemData.FISH_LENGTH.isPresent(stack)) fishLength = TideItemData.FISH_LENGTH.getOrDefault(stack, 0.0);
-        else if (Tide.CONFIG.items.fishItemSizes == TideConfig.Items.SizeMode.IN_JOURNAL) {
-            FishData data = FishData.get(stack).orElse(null);
-            if (data != null) fishLength = data.getRandomLength(level.random);
+
+        if (data.size().isPresent()) {
+            double fishLength = 0;
+            if (TideItemData.FISH_LENGTH.isPresent(stack))
+                fishLength = TideItemData.FISH_LENGTH.getOrDefault(stack, 0.0);
+            else if (Tide.CONFIG.items.fishItemSizes == TideConfig.Items.SizeMode.IN_JOURNAL)
+                fishLength = data.getRandomLength(level.random);
+            stats.logCatch(CatchTimestamp.now(level), fishLength);
         }
-        stats.logCatch(CatchTimestamp.now(level), fishLength);
 
         if (playerData == null) fishPlayerData.put(stack.getItemHolder(), new FishPlayerData(stats));
         else fishPlayerData.get(fish).stats = Optional.of(stats);

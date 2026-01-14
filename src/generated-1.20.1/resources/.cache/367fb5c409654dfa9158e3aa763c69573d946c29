@@ -1,4 +1,4 @@
-// 1.20.1	2026-01-09T15:26:12.7919481	Tide/Recipes
+// 1.20.1	2026-01-13T21:55:16.2144144	Tide/Recipes
 3276e90d458094c88e69fa67ffd7a3010ad5132e data\tide\recipes\enchanted_pocket_watch.json
 12a9964473dce48f4410e3442bd5da9548cd8457 data\tide\advancements\recipes\decorations\angling_table.json
 58b83e1bd9a95c5baec9885f9a08a97f87351acb data\tide\recipes\small_cooked_fish_campfire_cooking.json
@@ -15,8 +15,8 @@ dfd78e012f61832b69d9789884d99d83755c9943 data\tide\advancements\recipes\food\lar
 887310834bbd9968ed39cdac6348b320e8461aa5 data\tide\recipes\bobbers\enchanted_golden_apple.json
 33aff5c8b574b7c8e4d571d6bd8e24096b317326 data\tide\advancements\recipes\food\cooked_fish_slice_smelting.json
 62d184d21e172e54537ca02338faf3173bd20037 data\tide\advancements\recipes\tools\iron_rod_smithing.json
-281a909d32171c1e3e523705e07df41757ae121c data\tide\advancements\recipes\misc\iron_from_tetra.json
 c231990a78dddc87bab3f9e14866ac60af0d7a57 data\tide\advancements\recipes\misc\bone_meal_from_fish_bone.json
+281a909d32171c1e3e523705e07df41757ae121c data\tide\advancements\recipes\misc\iron_from_tetra.json
 52bd1f6bbc87e0129be637e55ea9a73696ff9498 data\tide\advancements\recipes\food\small_cooked_fish_smoking.json
 e35dbb568d2eeb57e7966221ae8b7abba7f63489 data\tide\recipes\bobbers\yellow.json
 89c9d16d6e6b9fc6477f597bca9bcb18e80fb1b8 data\tide\recipes\amethyst_from_shrimp.json

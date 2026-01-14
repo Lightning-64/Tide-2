@@ -19,11 +19,10 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:obsidianfish",
-    "roll": -90.0,
     "shape": "2x1",
     "x": 0.15,
     "y": -0.15,
-    "z": 0.17
+    "z": 0.05
   },
   "fish": "netherdepthsupgrade:obsidianfish",
   "journal_profile": {

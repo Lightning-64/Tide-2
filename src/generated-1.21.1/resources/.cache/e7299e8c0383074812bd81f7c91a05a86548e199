@@ -1,10 +1,10 @@
-// 1.21.1	2026-01-12T17:42:14.7183759	Tide/Fishing Loot Data
+// 1.21.1	2026-01-13T21:30:38.9962895	Tide/Fishing Loot Data
 6a5d631e9307bea45663dd786e06d5e1a083788e data\tide\fishing\loot\surface_junk.json
 68eaf7e83421e6835a48751958367b26b3de88e7 data\tide\fishing\loot\trial_chamber_treasure.json
 d79a864ad60d60ac83266c6af12afe630922b2cb data\tide\fishing\loot\ocean_monument_treasure.json
 b7c16edc00cf008f5e8d4dc12486a264c3d9e601 data\tide\fishing\loot\desert_well_treasure.json
-b96b75273075e54fe55891b81c1f8244e159aee9 data\tide\fishing\loot\underground_junk.json
 8a676f008fb3bb790f596343ffdf7457266532c2 data\tide\fishing\loot\underground_treasure.json
+b96b75273075e54fe55891b81c1f8244e159aee9 data\tide\fishing\loot\underground_junk.json
 3949de71ad43fc23b80b87774e4830baa424f9ba data\tide\fishing\loot\surface_treasure.json
 80d9cab0fda86f53ec661cd9e14760f1a2f8cd46 data\tide\fishing\loot\lava_junk.json
 ad8eea82f29d1802460fe2a182e8239fc7c59cac data\tide\fishing\loot\nether_treasure.json

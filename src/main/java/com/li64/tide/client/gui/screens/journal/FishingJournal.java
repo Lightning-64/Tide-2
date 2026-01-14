@@ -67,7 +67,7 @@ public class FishingJournal extends Screen {
         super(GameNarrator.NO_TITLE);
         this.player = player;
         this.fishByPage = paginate(TideData.FISH.get().valueStream()
-                .filter(FishData::isOriginal)
+                .filter(FishData::hasJournalEntry)
                 .sorted(Comparator.comparing((FishData a) -> a.profile().group().ordinal())
                         .thenComparing(a -> a.profile().rarity().ordinal())
                         .thenComparingDouble(d -> -d.weight()))

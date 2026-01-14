@@ -19,10 +19,11 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:fortressgrouper",
-    "roll": -90.0,
+    "roll": 90.0,
     "shape": "3x1",
     "x": 0.3,
-    "y": -0.85
+    "y": 0.2,
+    "z": 0.2
   },
   "fish": "netherdepthsupgrade:fortress_grouper",
   "journal_profile": {

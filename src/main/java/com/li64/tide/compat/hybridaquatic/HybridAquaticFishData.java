@@ -652,7 +652,7 @@ public class HybridAquaticFishData {
                         .rotation(-90f, 0f, 0f))
                 .build(output);
 
-        FishData.builder().fish(MOD_ID, "surgeonfish")
+        FishData.builder().fish(MOD_ID, "triggerfish")
                 .size(25, 45, 100)
                 .strength(0.45f)
                 .speed(1.25f)

@@ -42,7 +42,7 @@ public class TideUtils {
     }
 
     public static boolean isJournalFish(Item fish) {
-        return FishData.get(fish).isPresent();
+        return FishData.get(fish).map(FishData::showInJournal).orElse(false);
     }
 
     public static Component removeRawTextInName(Component initialName) {

@@ -30,7 +30,7 @@
    },
    "accessWidener": "accesswideners/tide-${mc_version}.accesswidener",
    "depends": {
-      "minecraft": ">=${mc_version}",
+      "minecraft": "${mc_version}",
       "cloth-config": "*"
    }
 }

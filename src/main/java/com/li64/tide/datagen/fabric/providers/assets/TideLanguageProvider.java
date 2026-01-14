@@ -76,6 +76,8 @@ public class TideLanguageProvider extends FabricLanguageProvider {
         builder.add("text.autoconfig.tide.option.items.fishItemLifespan.@Tooltip", "The duration, in seconds, of how long a fish item is bucketable after being caught");
         builder.add("text.autoconfig.tide.option.items.enableBedrockBreakingItems", "Enable Bedrock-Breaking Items");
         builder.add("text.autoconfig.tide.option.items.enableBedrockBreakingItems.@Tooltip", "Enables the bedrock eating functionality of the Chasm Eel item");
+        builder.add("text.autoconfig.tide.option.items.pocketWatchBlacklist", "Pocket Watch Blacklist");
+        builder.add("text.autoconfig.tide.option.items.pocketWatchBlacklist.@Tooltip", "Entity IDs added to this list are unaffected by the Enchanted Pocket Watch");
 
         builder.add("text.autoconfig.tide.option.journal.giveJournal", "Give Journal");
         builder.add("text.autoconfig.tide.option.journal.giveJournal.@Tooltip", "Give players a fishing journal upon joining a world for the first time");

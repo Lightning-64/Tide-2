@@ -814,6 +814,8 @@
   "text.autoconfig.tide.option.items.fishItemSizes.always": "Always",
   "text.autoconfig.tide.option.items.fishItemSizes.in_journal": "Only In Journal",
   "text.autoconfig.tide.option.items.fishItemSizes.never": "Never",
+  "text.autoconfig.tide.option.items.pocketWatchBlacklist": "Pocket Watch Blacklist",
+  "text.autoconfig.tide.option.items.pocketWatchBlacklist.@Tooltip": "Entity IDs added to this list are unaffected by the Enchanted Pocket Watch",
   "text.autoconfig.tide.option.journal.giveJournal": "Give Journal",
   "text.autoconfig.tide.option.journal.giveJournal.@Tooltip": "Give players a fishing journal upon joining a world for the first time",
   "text.autoconfig.tide.option.journal.showToasts": "Show Toasts",

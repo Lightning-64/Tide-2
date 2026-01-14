@@ -1145,7 +1145,12 @@ public class TideFish {
                     .speed(1.5f)
                     .behavior(MinigameBehavior.JITTER)
                     .selectionWeight(20)
-                    .foundIn(BuiltinStructures.OCEAN_MONUMENT)
+                    .condition(StructuresCondition.inStructures(List.of(
+                            BuiltinStructures.OCEAN_MONUMENT,
+                            ResourceKey.create(Registries.STRUCTURE, Tide.resource(
+                                    "betteroceanmonuments", "ocean_monument"))
+                    )))
+                    .inStructure(BuiltinStructures.OCEAN_MONUMENT)
                     .overworld()
                     .water()
                     .journalLocation("journal.info.location.ocean_monument")
@@ -1963,7 +1968,7 @@ public class TideFish {
                     .speed(1.5f)
                     .behavior(MinigameBehavior.DARTS)
                     .selectionWeight(20)
-                    .foundIn(BuiltinStructures.TRIAL_CHAMBERS)
+                    .inStructure(BuiltinStructures.TRIAL_CHAMBERS)
                     .below(30)
                     .overworld()
                     .water()

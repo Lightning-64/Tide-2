@@ -19,12 +19,11 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:soulsucker",
-    "roll": -90.0,
+    "roll": 90.0,
     "shape": "3x1",
     "x": 0.75,
-    "y": -0.34,
-    "yaw": 6.0,
-    "z": 0.15
+    "y": 0.1,
+    "z": 0.05
   },
   "fish": "netherdepthsupgrade:soulsucker",
   "journal_profile": {

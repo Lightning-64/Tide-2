@@ -13,10 +13,8 @@
   ],
   "display_data": {
     "entity": "netherdepthsupgrade:searing_cod",
-    "roll": -90.0,
-    "x": 0.15,
-    "y": -0.1,
-    "z": 0.15
+    "x": 0.1,
+    "z": 0.05
   },
   "fish": "netherdepthsupgrade:searing_cod",
   "journal_profile": {
