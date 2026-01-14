@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.List;
 
 @Mixin(ProjectileWeaponItem.class)
-public class ProjectileWeaponItemMixin {
+public abstract class ProjectileWeaponItemMixin {
     //? if >=1.21 {
     @Inject(at = @At("HEAD"), method = "draw", cancellable = true)
     private static void draw(ItemStack weapon, ItemStack ammo, LivingEntity shooter, CallbackInfoReturnable<List<ItemStack>> cir) {
