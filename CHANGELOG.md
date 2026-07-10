@@ -27,12 +27,13 @@
   - Copper Line
   - Iron Line
   - Diamond Line
-- Added 8 new themed fishing rods:
+- Added 6 new themed fishing rods:
   - Rod of Resonance (ancient city chests)
   - Prismarine Fishing Rod (drops from elder guardians)
   - The Suncatcher (rare catch in plains biomes)
   - Rod of the Hero (purchased from master fishermen villagers)
   - Beeline (rare drop from shearing beehives)
+  - Blazing Fishing Rod (nether fortress chests)
 - Added 2 new bait items:
   - Incandescent Bait
   - Abyss Bait
