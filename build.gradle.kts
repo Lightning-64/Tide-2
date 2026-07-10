@@ -192,7 +192,7 @@ dependencies {
             modstitchModCompileOnly("curse.maven:serene-seasons-291874:6182596")
             modstitchModCompileOnly("curse.maven:ecliptic-seasons-1118306:7304586")
             modstitchModCompileOnly("curse.maven:stardew-fishing-1066037:7266308")
-            modstitchModCompileOnly("curse.maven:starcatcher-1357603:8135773")
+            modstitchModCompileOnly("curse.maven:starcatcher-1357603:8402725")
             modstitchModCompileOnly("curse.maven:fishing-real-348834:6465668")
             modstitchModCompileOnly("curse.maven:hybrid-aquatic-834427:7694018")
             modstitchModCompileOnly("software.bernie.geckolib:geckolib-neoforge-1.21.1:4.8.2")

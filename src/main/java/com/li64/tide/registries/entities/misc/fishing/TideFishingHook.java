@@ -914,11 +914,9 @@ public class TideFishingHook extends Projectile {
         this.minigameStartTime = time;
     }
 
-    // replace the primary caught item without assuming the hooked-items list is mutable
     public void replacePrimaryCatch(ItemStack stack) {
         if (hookedItems == null || hookedItems.isEmpty()) return;
         ItemStack original = hookedItems.get(0);
-        // preserve Tide's length so the journal's size records aren't reset when the item is swapped
         if (TideItemData.FISH_LENGTH.isPresent(original) && !TideItemData.FISH_LENGTH.isPresent(stack))
             TideItemData.FISH_LENGTH.set(stack, TideItemData.FISH_LENGTH.getOrDefault(original, 0.0));
         List<ItemStack> items = new ArrayList<>(hookedItems);
