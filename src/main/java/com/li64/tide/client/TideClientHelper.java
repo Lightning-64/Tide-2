@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 
 //? if neoforge {
 /*import com.li64.tide.network.messages.StarcatcherStartMinigameMsg;
-import com.li64.tide.compat.starcatcher.StarcatcherCompat;
+import com.li64.tide.compat.starcatcher.TideStarcatcherMinigameScreen;
 import net.minecraft.world.entity.player.Player;
 *///?}
 
