@@ -7,16 +7,13 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
 @Config(name = Tide.MOD_ID + "_client")
 public final class TideClientConfig implements ConfigData {
-    @ConfigEntry.Category("general")
-    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Gui.CollapsibleObject
     public General general;
 
-    @ConfigEntry.Category("journal")
-    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Gui.CollapsibleObject
     public Journal journal;
 
-    @ConfigEntry.Category("minigame")
-    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Gui.CollapsibleObject
     public Minigame minigame;
 
     public TideClientConfig() {

@@ -1,7 +1,7 @@
 package com.li64.tide.data.fishing.mediums;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.registries.TideParticleTypes;
 import com.li64.tide.registries.entities.misc.fishing.TideFishingHook;
 import net.minecraft.core.BlockPos;
@@ -19,12 +19,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class VoidMedium implements FishingMedium {
-    private final Map<ResourceKey<Level>, TideConfig.General.VoidHeightEntry> CACHE = new HashMap<>();
-    private final TideConfig.General.VoidHeightEntry DEFAULT_ENTRY = new TideConfig.General.VoidHeightEntry();
+    private final Map<ResourceKey<Level>, TideServerConfig.General.VoidHeightEntry> CACHE = new HashMap<>();
+    private final TideServerConfig.General.VoidHeightEntry DEFAULT_ENTRY = new TideServerConfig.General.VoidHeightEntry();
     private final ResourceLocation id = Tide.resource("void");
 
     public VoidMedium() {
-        Tide.CONFIG.general.fishableVoidHeights.forEach(entry -> {
+        Tide.SERVER_CONFIG.general.fishableVoidHeights.forEach(entry -> {
             ResourceKey<Level> dimension = ResourceKey.create(Registries.DIMENSION, ResourceLocation.tryParse(entry.dimension));
             CACHE.put(dimension, entry);
         });
@@ -44,9 +44,9 @@ public class VoidMedium implements FishingMedium {
     }
 
     public int getVoidSurface(Level level) {
-        TideConfig.General.VoidHeightEntry entry = CACHE.getOrDefault(level.dimension(), DEFAULT_ENTRY);
-        if (entry.type == TideConfig.General.VoidHeightEntry.Type.RELATIVE_TO_BOTTOM) return level.getMinBuildHeight() + entry.height;
-        if (entry.type == TideConfig.General.VoidHeightEntry.Type.RELATIVE_TO_TOP) return level.getMaxBuildHeight() + entry.height;
+        TideServerConfig.General.VoidHeightEntry entry = CACHE.getOrDefault(level.dimension(), DEFAULT_ENTRY);
+        if (entry.type == TideServerConfig.General.VoidHeightEntry.Type.RELATIVE_TO_BOTTOM) return level.getMinBuildHeight() + entry.height;
+        if (entry.type == TideServerConfig.General.VoidHeightEntry.Type.RELATIVE_TO_TOP) return level.getMaxBuildHeight() + entry.height;
         return entry.height;
     }
 

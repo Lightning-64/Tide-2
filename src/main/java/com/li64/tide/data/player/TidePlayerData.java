@@ -1,7 +1,7 @@
 package com.li64.tide.data.player;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.TideCriteriaTriggers;
 import com.li64.tide.data.TideData;
 import com.li64.tide.data.fishing.FishData;
@@ -149,7 +149,7 @@ public class TidePlayerData {
             double fishLength = 0;
             if (TideItemData.FISH_LENGTH.isPresent(stack))
                 fishLength = TideItemData.FISH_LENGTH.getOrDefault(stack, 0.0);
-            else if (Tide.CONFIG.items.fishItemSizes == TideConfig.Items.SizeMode.IN_JOURNAL)
+            else if (Tide.SERVER_CONFIG.items.fishItemSizes == TideServerConfig.Items.SizeMode.IN_JOURNAL)
                 fishLength = data.getRandomLength(level.random);
             stats.logCatch(CatchTimestamp.now(level), fishLength);
         }

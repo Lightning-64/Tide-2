@@ -66,7 +66,7 @@ public class FishCatchMinigame {
         if (hook.getLine().is(TideItems.DIAMOND_LINE)) fishStrength *= 0.75f;
 
         float area = Mth.clamp(1 - fishStrength, 0.05f, 1.0f);
-        float speed = Math.max(fishSpeed / 20f * Tide.CONFIG.minigame.minigameDifficultyMultiplier, 0.05f);
+        float speed = Math.max(fishSpeed / 20f * Tide.SERVER_CONFIG.minigame.minigameDifficultyMultiplier, 0.05f);
 
         // Start client minigame gui
         int type = 0;
@@ -102,7 +102,7 @@ public class FishCatchMinigame {
 
     public void onFail() {
         if (cancelIfNecessary()) return;
-        if (Tide.CONFIG.minigame.doFailSound) hook.level().playSound(
+        if (Tide.SERVER_CONFIG.minigame.doFailSound) hook.level().playSound(
                 null, hook.getPlayerOwner().blockPosition(),
                 SoundEvents.SHEEP_SHEAR, SoundSource.AMBIENT,
                 0.9f, 1.0f);
@@ -113,7 +113,7 @@ public class FishCatchMinigame {
 
     public void onWin(boolean perfectCatch) {
         if (cancelIfNecessary()) return;
-        if (Tide.CONFIG.minigame.doSuccessSound) hook.level().playSound(
+        if (Tide.SERVER_CONFIG.minigame.doSuccessSound) hook.level().playSound(
                 null, hook.getPlayerOwner().blockPosition(),
                 SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.AMBIENT,
                 0.15f, 1.0f);

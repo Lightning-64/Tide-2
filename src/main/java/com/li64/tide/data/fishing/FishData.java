@@ -3,7 +3,7 @@ package com.li64.tide.data.fishing;
 import com.google.common.collect.ImmutableList;
 import com.li64.tide.Tide;
 import com.li64.tide.compat.seasons.Season;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.ModAssociatedEntry;
 import com.li64.tide.data.commands.TestType;
 import com.li64.tide.data.item.TideItemData;
@@ -212,9 +212,9 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
     @Override
     public CatchResult getResult(FishingContext context) {
         ItemStack stack = new ItemStack(fish().value());
-        if (Tide.CONFIG.items.fishItemSizes == TideConfig.Items.SizeMode.ALWAYS && size().isPresent())
+        if (Tide.SERVER_CONFIG.items.fishItemSizes == TideServerConfig.Items.SizeMode.ALWAYS && size().isPresent())
             TideItemData.FISH_LENGTH.set(stack, this.getRandomLength(context.rng()));
-        if (Tide.CONFIG.items.bucketableFishItems == TideConfig.Items.BucketableMode.WHEN_LIVING && bucket().isPresent())
+        if (Tide.SERVER_CONFIG.items.bucketableFishItems == TideServerConfig.Items.BucketableMode.WHEN_LIVING && bucket().isPresent())
             TideItemData.IS_BUCKETABLE.set(stack, true);
         return createResult(stack);
     }
@@ -503,7 +503,7 @@ public record FishData(/*? if >=1.21 {*/ Holder<Item> fish,
                 if (!(container instanceof LootItem lootItem)) continue;
                 Item item = lootItem.item/*? if >=1.21 {*/.value()/*?}*/;
                 ResourceLocation key = BuiltInRegistries.ITEM.getKey(item);
-                if (Tide.CONFIG.general.autoFishDataBlacklist.contains(key.toString()) || get(item).isPresent()) continue;
+                if (Tide.SERVER_CONFIG.general.autoFishDataBlacklist.contains(key.toString()) || get(item).isPresent()) continue;
                 Tide.LOG.info("Found unknown fish \"{}\" in vanilla fishing loot table, auto-generating fish data", item);
                 FishData data = builder().fish(item)
                         .strength(0.5f)

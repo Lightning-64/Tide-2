@@ -1,7 +1,7 @@
 //? if fabric {
 package com.li64.tide.compat.modmenu;
 
-import com.li64.tide.config.TideClientConfig;
+import com.li64.tide.config.TideConfig;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 import me.shedaniel.autoconfig.AutoConfig;
@@ -13,7 +13,7 @@ import static net.fabricmc.api.EnvType.CLIENT;
 public class ModMenuCompat implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> AutoConfig.getConfigScreen(TideClientConfig.class, parent).get();
+        return parent -> AutoConfig.getConfigScreen(TideConfig.class, parent).get();
     }
 }
 //?}

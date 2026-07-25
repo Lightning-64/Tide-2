@@ -1,7 +1,7 @@
 package com.li64.tide.data.loot;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.fishing.FishData;
 import com.li64.tide.data.item.TideItemData;
 import com.li64.tide.registries.TideLootFunctions;
@@ -23,7 +23,7 @@ public class RandomizeFishLengthFunction implements LootItemFunction {
 
     @Override
     public ItemStack apply(ItemStack stack, LootContext context) {
-        if (Tide.CONFIG.items.fishItemSizes != TideConfig.Items.SizeMode.ALWAYS
+        if (Tide.SERVER_CONFIG.items.fishItemSizes != TideServerConfig.Items.SizeMode.ALWAYS
                 || FishData.get(stack).map(FishData::size).isEmpty()) return stack;
         FishData.get(stack).ifPresent(data -> TideItemData.FISH_LENGTH
                 .set(stack, data.getRandomLength(context.getRandom())));

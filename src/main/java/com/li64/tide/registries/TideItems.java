@@ -1,7 +1,7 @@
 package com.li64.tide.registries;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.fishing.FishData;
 import com.li64.tide.data.item.TideItemData;
 import com.li64.tide.registries.blocks.JellyTorchBlockItem;
@@ -212,7 +212,7 @@ public class TideItems {
 
             TideFish.ORDERED.forEach(item -> {
                 ItemStack stack = new ItemStack(item);
-                if (Tide.CONFIG.items.fishItemSizes == TideConfig.Items.SizeMode.ALWAYS || FishData.get(stack).map(FishData::size).isPresent())
+                if (Tide.SERVER_CONFIG.items.fishItemSizes == TideServerConfig.Items.SizeMode.ALWAYS && FishData.get(stack).map(FishData::size).isPresent())
                     FishData.get(stack).ifPresent(data -> TideItemData.FISH_LENGTH.set(stack, data.getAverageLength()));
                 DISPLAY_ITEMS.add(stack);
 

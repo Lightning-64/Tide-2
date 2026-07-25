@@ -27,7 +27,7 @@ public class TideClientHelper {
     }
 
     public static void showToast(Component title, Component description, ItemStack display) {
-        if (Tide.CONFIG.journal.showToasts) TideToasts.display(new TideToasts.NewPageToast(title, description, display));
+        if (Tide.SERVER_CONFIG.journal.showToasts) TideToasts.display(new TideToasts.NewPageToast(title, description, display));
     }
 
     public static void openNoteScreen(ItemStack stack) {

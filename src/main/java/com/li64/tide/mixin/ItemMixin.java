@@ -1,7 +1,7 @@
 package com.li64.tide.mixin;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.FishLengthHolder;
 import com.li64.tide.data.fishing.FishData;
 import com.li64.tide.data.item.TideItemData;
@@ -29,11 +29,10 @@ import net.minecraft.world.item.component.CustomData;
 import java.util.Optional;
 
 @Mixin(Item.class)
-public abstract class
-ItemMixin {
+public abstract class ItemMixin {
     @Inject(at = @At(value = "RETURN"), method = "overrideStackedOnOther", cancellable = true)
     public void overrideStackedOnOther(ItemStack stack, Slot slot, ClickAction action, Player player, CallbackInfoReturnable<Boolean> cir) {
-        if (Tide.CONFIG.items.bucketableFishItems != TideConfig.Items.BucketableMode.NEVER
+        if (Tide.SERVER_CONFIG.items.bucketableFishItems != TideServerConfig.Items.BucketableMode.NEVER
                 && stack.getItem() instanceof BucketItem bucket && !(bucket instanceof MobBucketItem)) {
             if (tide$tryFillBucket(slot, slot.getItem(), stack, bucket, player)) cir.setReturnValue(true);
         }
@@ -41,7 +40,7 @@ ItemMixin {
 
     @Inject(at = @At(value = "RETURN"), method = "overrideOtherStackedOnMe", cancellable = true)
     public void overrideOtherStackedOnMe(ItemStack stack, ItemStack other, Slot slot, ClickAction action, Player player, SlotAccess access, CallbackInfoReturnable<Boolean> cir) {
-        if (Tide.CONFIG.items.bucketableFishItems != TideConfig.Items.BucketableMode.NEVER
+        if (Tide.SERVER_CONFIG.items.bucketableFishItems != TideServerConfig.Items.BucketableMode.NEVER
                 && stack.getItem() instanceof BucketItem bucket && !(bucket instanceof MobBucketItem)) {
             if (tide$tryFillBucket(slot, other, other, bucket, player)) cir.setReturnValue(true);
         }
@@ -54,7 +53,7 @@ ItemMixin {
 
         FishData data = dataOp.get();
         if (data.bucket().isEmpty()
-                || (Tide.CONFIG.items.bucketableFishItems == TideConfig.Items.BucketableMode.WHEN_LIVING
+                || (Tide.SERVER_CONFIG.items.bucketableFishItems == TideServerConfig.Items.BucketableMode.WHEN_LIVING
                         && !TideItemData.IS_BUCKETABLE.getOrDefault(fish, false))
                 || !(data.bucket().get().value() instanceof BucketItem fishBucketItem))
             return false;

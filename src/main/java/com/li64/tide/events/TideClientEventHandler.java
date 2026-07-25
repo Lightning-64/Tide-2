@@ -1,7 +1,7 @@
 package com.li64.tide.events;
 
 import com.li64.tide.Tide;
-import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.TideTags;
 import com.li64.tide.data.item.TideItemData;
 import com.li64.tide.registries.items.TideFishingRodItem;
@@ -27,7 +27,7 @@ public class TideClientEventHandler {
 
         if (Minecraft.getInstance().level != null
                 && TideItemData.IS_BUCKETABLE.getOrDefault(stack, false)
-                && Tide.CONFIG.items.bucketableFishItems == TideConfig.Items.BucketableMode.WHEN_LIVING)
+                && Tide.SERVER_CONFIG.items.bucketableFishItems == TideServerConfig.Items.BucketableMode.WHEN_LIVING)
             lines.add(Component.translatable("text.tide.fish.alive").withStyle(ChatFormatting.GRAY));
 
         if (TideItemData.FISH_LENGTH.isPresent(stack)) {

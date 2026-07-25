@@ -2,12 +2,16 @@ package com.li64.tide;
 
 import com.li64.tide.config.TideClientConfig;
 import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.TideFishingManager;
 import com.li64.tide.loaders.LoaderPlatform;
 import com.li64.tide.loaders.NetworkPlatform;
 import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.shedaniel.autoconfig.ConfigHolder;
+import me.shedaniel.autoconfig.serializer.GsonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.InteractionResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -47,8 +51,9 @@ public class Tide {
         *///?}
     }
 
-    public static TideClientConfig CLIENT_CONFIG;
     public static TideConfig CONFIG;
+    public static TideClientConfig CLIENT_CONFIG;
+    public static TideServerConfig SERVER_CONFIG;
 
     public static TideFishingManager FISHING_MANAGER;
 
@@ -67,7 +72,19 @@ public class Tide {
     }
 
     public static void setupConfigs() {
-        if (CLIENT_CONFIG == null) CLIENT_CONFIG = AutoConfig.register(TideClientConfig.class, JanksonConfigSerializer::new).getConfig();
-        if (CONFIG == null) CONFIG = AutoConfig.register(TideConfig.class, JanksonConfigSerializer::new).getConfig();
+        if (CONFIG == null) {
+            ConfigHolder<TideConfig> holder = AutoConfig.register(TideConfig.class, PartitioningSerializer.wrap(GsonConfigSerializer::new));
+            holder.registerLoadListener(Tide::updateConfig);
+
+            CONFIG = holder.getConfig();
+
+            updateConfig(holder, CONFIG);
+        }
+    }
+
+    public static InteractionResult updateConfig(ConfigHolder<TideConfig> holder, TideConfig config) {
+        CLIENT_CONFIG = config.client();
+        SERVER_CONFIG = config.server();
+        return InteractionResult.SUCCESS;
     }
 }

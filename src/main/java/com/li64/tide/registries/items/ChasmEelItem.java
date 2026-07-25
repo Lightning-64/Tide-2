@@ -23,7 +23,7 @@ public class ChasmEelItem extends AbstractTooltipItem {
 
     @Override
     public @NotNull InteractionResult useOn(UseOnContext context) {
-        if (context.getPlayer() == null || !Tide.CONFIG.items.enableBedrockBreakingItems) return super.useOn(context);
+        if (context.getPlayer() == null || !Tide.SERVER_CONFIG.items.enableBedrockBreakingItems) return super.useOn(context);
         ItemStack eelStack = context.getItemInHand();
         Level level = context.getPlayer().level();
         BlockState usedOn = level.getBlockState(context.getClickedPos());
@@ -38,7 +38,7 @@ public class ChasmEelItem extends AbstractTooltipItem {
 
     @Override
     public void addTooltip(ItemStack stack, Consumer<Component> tooltip) {
-        if (!Tide.CONFIG.items.enableBedrockBreakingItems) return;
+        if (!Tide.SERVER_CONFIG.items.enableBedrockBreakingItems) return;
         Style gray = Component.empty().getStyle().withColor(ChatFormatting.GRAY);
         tooltip.accept(Component.translatable("item.tide.chasm_eel.desc").setStyle(gray));
     }

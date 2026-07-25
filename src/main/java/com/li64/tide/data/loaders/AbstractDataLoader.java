@@ -48,12 +48,12 @@ public abstract class AbstractDataLoader<T, R> extends SimplePreparableReloadLis
         var json = JsonParser.parseReader(reader);
         getEntryCodec().parse(JsonOps.INSTANCE, json)
                 .resultOrPartial(error -> {
-                    if (Tide.CONFIG.general.logDataErrors)
+                    if (Tide.SERVER_CONFIG.general.logDataErrors)
                         Tide.LOG.error("Skipping invalid data entry '{}' due to parsing error: {}", key, error);
                 })
                 .map(data -> {
                     if (data instanceof ValidatableDataEntry entry && !entry.isValid()) {
-                        if (Tide.CONFIG.general.logDataErrors)
+                        if (Tide.SERVER_CONFIG.general.logDataErrors)
                             Tide.LOG.error("Skipping invalid data entry '{}': {}", key, entry.invalidReason());
                         return null;
                     }

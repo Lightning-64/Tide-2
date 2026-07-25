@@ -59,7 +59,7 @@ public class TideFishingRodItem extends FishingRodItem {
 
     public TideFishingRodItem(int baitSlots, double baseDurability, Properties properties) {
         super(properties
-                .durability((int) (baseDurability * (Tide.CONFIG == null ? 1.0 : Tide.CONFIG.general.rodDurabilityMultiplier)))
+                .durability((int) (baseDurability * (Tide.SERVER_CONFIG == null ? 1.0 : Tide.SERVER_CONFIG.general.rodDurabilityMultiplier)))
                 /*? if >=1.21*/.component(TideDataComponents.BAIT_CONTENTS, new BaitContents())
         );
         this.baitSlots = baitSlots;
@@ -195,7 +195,7 @@ public class TideFishingRodItem extends FishingRodItem {
         if (isHookActive(player)) {
             TideFishingHook hook = getHook(player);
 
-            if (isMinigameStopped(player, level.isClientSide()) && Tide.CONFIG.minigame.doMinigame) {
+            if (isMinigameStopped(player, level.isClientSide()) && Tide.SERVER_CONFIG.minigame.doMinigame) {
                 // No minigame active, create a new one if necessary
                 if (CompatHelper.useStarcatcherMinigame()) {
                     if (hook.getCatchType() == TideFishingHook.CatchType.FISH) {
@@ -243,7 +243,7 @@ public class TideFishingRodItem extends FishingRodItem {
             }
             else {
                 // Minigame is either active or disabled
-                if (!Tide.CONFIG.minigame.doMinigame) {
+                if (!Tide.SERVER_CONFIG.minigame.doMinigame) {
                     if (!level.isClientSide()) hook.retrieve();
                 }
                 else if (level.isClientSide()) {
@@ -257,7 +257,7 @@ public class TideFishingRodItem extends FishingRodItem {
             if (!level.isClientSide() && FishCatchMinigame.delayActive((ServerPlayer) player))
                 return InteractionResultHolder.consume(player.getItemInHand(hand));
 
-            if (Tide.CONFIG.general.holdToCast) {
+            if (Tide.SERVER_CONFIG.general.holdToCast) {
                 // Charge the cast if the hook isn't active
                 level.playSound(null, player.getX(), player.getY(), player.getZ(), SoundEvents.FISHING_BOBBER_RETRIEVE,
                         SoundSource.NEUTRAL, 1.5F, 0.3F / (level.getRandom().nextFloat() * 0.4F + 0.7F));

@@ -42,7 +42,7 @@ public class CompatHelper {
     // -- starcatcher --
 
     public static boolean useStarcatcherMinigame() {
-        return Tide.PLATFORM.isModLoaded("starcatcher") && Tide.CONFIG.minigame.useThirdPartyMinigames;
+        return Tide.PLATFORM.isModLoaded("starcatcher") && Tide.SERVER_CONFIG.minigame.useThirdPartyMinigames;
     }
 
     public static boolean starcatcherStartMinigame(ServerPlayer player, HookAccessor hook, ItemStack rod, List<ItemStack> hookedItems) {
@@ -53,7 +53,7 @@ public class CompatHelper {
     // -- stardew fishing --
 
     public static boolean useStardewMinigame() {
-        return Tide.PLATFORM.isModLoaded("stardew_fishing") && Tide.CONFIG.minigame.useThirdPartyMinigames;
+        return Tide.PLATFORM.isModLoaded("stardew_fishing") && Tide.SERVER_CONFIG.minigame.useThirdPartyMinigames;
     }
 
     public static boolean stardewFishingStartMinigame(ServerPlayer player, HookAccessor hook, ItemStack rod, List<ItemStack> hookedItems) {

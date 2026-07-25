@@ -32,7 +32,7 @@ public class EnchantedPocketWatchItem extends PocketWatchItem {
     public @NotNull InteractionResult interactLivingEntity(ItemStack stack, Player player, LivingEntity target, InteractionHand hand) {
         if (!(target instanceof Mob mob) || !(target instanceof FreezableMob freezable)
                 || player.getCooldowns().isOnCooldown(this) || target.getType().is(TideTags.Entities.IGNORES_POCKET_WATCH)
-                || Tide.CONFIG.items.pocketWatchBlacklist.contains(BuiltInRegistries.ENTITY_TYPE.getKey(target.getType()).toString())) {
+                || Tide.SERVER_CONFIG.items.pocketWatchBlacklist.contains(BuiltInRegistries.ENTITY_TYPE.getKey(target.getType()).toString())) {
             return super.interactLivingEntity(stack, player, target, hand);
         }
         if (!(player.level() instanceof ServerLevel level)) return InteractionResult.SUCCESS;

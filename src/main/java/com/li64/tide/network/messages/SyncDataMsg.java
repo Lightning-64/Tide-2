@@ -3,6 +3,7 @@ package com.li64.tide.network.messages;
 import com.google.gson.Gson;
 import com.li64.tide.Tide;
 import com.li64.tide.config.TideConfig;
+import com.li64.tide.config.TideServerConfig;
 import com.li64.tide.data.TideData;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
@@ -16,12 +17,12 @@ public record SyncDataMsg() implements TidePacketPayload {
 
     public SyncDataMsg(FriendlyByteBuf buf) {
         this();
-        TideConfig.readFromPacket(buf, GSON);
+        TideServerConfig.readFromPacket(buf, GSON);
         TideData.readFromPacket(buf);
     }
 
     public static void encode(SyncDataMsg message, FriendlyByteBuf buf) {
-        TideConfig.writeToPacket(buf, GSON);
+        TideServerConfig.writeToPacket(buf, GSON);
         TideData.writeToPacket(buf);
     }
 

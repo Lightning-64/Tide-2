@@ -14,8 +14,8 @@ public abstract class ItemsMixin {
             at = @At(value = "NEW", target = "(Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/FishingRodItem;", ordinal = 0),
             method = "<clinit>")
     private static FishingRodItem fishingRod(Item.Properties properties) {
-        if (Tide.CONFIG == null) Tide.setupConfigs();
-        if (!Tide.CONFIG.general.overrideVanillaRod) return new FishingRodItem(properties);
+        if (Tide.SERVER_CONFIG == null) Tide.setupConfigs();
+        if (!Tide.SERVER_CONFIG.general.overrideVanillaRod) return new FishingRodItem(properties);
         return new TideFishingRodItem(1, 32, properties);
     }
 }
