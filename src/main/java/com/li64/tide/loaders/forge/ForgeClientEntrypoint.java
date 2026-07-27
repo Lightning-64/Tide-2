@@ -12,7 +12,7 @@ import com.li64.tide.client.gui.overlays.CatchMinigameOverlay;
 import com.li64.tide.client.gui.overlays.FishingInfoOverlay;
 import com.li64.tide.client.gui.overlays.SonarOverlay;
 import com.li64.tide.client.gui.screens.AnglingTableScreen;
-import com.li64.tide.config.TideClientConfig;
+import com.li64.tide.config.TideConfig;
 import com.li64.tide.data.DoubleJumper;
 import com.li64.tide.data.rods.ClientFishingRodTooltip;
 import com.li64.tide.data.rods.FishingRodTooltip;
@@ -76,7 +76,7 @@ public class ForgeClientEntrypoint {
                 ModLoadingContext.get().registerExtensionPoint(
                         ConfigScreenHandler.ConfigScreenFactory.class,
                         () -> new ConfigScreenHandler.ConfigScreenFactory(
-                                (mc, screen) -> AutoConfig.getConfigScreen(TideClientConfig.class, screen).get())
+                                (mc, screen) -> AutoConfig.getConfigScreen(TideConfig.class, screen).get())
                 );
 
                 MenuScreens.register(TideMenuTypes.ANGLING_TABLE, AnglingTableScreen::new);

@@ -8,7 +8,7 @@ import com.li64.tide.client.TideItemModelProperties;
 import com.li64.tide.client.VoidParticleSpawner;
 import com.li64.tide.client.gui.TideMenuTypes;
 import com.li64.tide.client.gui.screens.AnglingTableScreen;
-import com.li64.tide.config.TideClientConfig;
+import com.li64.tide.config.TideConfig;
 import com.li64.tide.data.DoubleJumper;
 import com.li64.tide.data.rods.ClientFishingRodTooltip;
 import com.li64.tide.data.rods.FishingRodTooltip;
@@ -40,7 +40,7 @@ public class NeoforgeClientEntrypoint {
     public static void onClientSetup(final FMLClientSetupEvent event) {
         NeoforgeEntrypoint.CONTAINER.registerExtensionPoint(
                 IConfigScreenFactory.class,
-                (mc, screen) -> AutoConfig.getConfigScreen(TideClientConfig.class, screen).get()
+                (mc, screen) -> AutoConfig.getConfigScreen(TideConfig.class, screen).get()
         );
 
         event.enqueueWork(TideItemModelProperties::registerAll);
