@@ -168,10 +168,12 @@ dependencies {
             modstitchModCompileOnly("curse.maven:hybrid-aquatic-834427:7694020")
             modstitchModCompileOnly("software.bernie.geckolib:geckolib-fabric-1.21.1:4.8.2")
         }
+
+
         if (minecraft == "1.20.1") {
             // fabric 1.20.1
-            modstitchModApi("me.shedaniel.cloth:cloth-config-fabric:11.1.136") { exclude("net.fabricmc.fabric-api") }
             modstitchModImplementation("net.fabricmc.fabric-api:fabric-api:0.92.6+1.20.1")
+            modstitchModApi("me.shedaniel.cloth:cloth-config-fabric:11.1.136") { exclude("net.fabricmc.fabric-api") }
             modstitchModImplementation("com.terraformersmc:modmenu:7.2.2")
             modstitchModCompileOnly("dev.emi:trinkets:3.7.2")
             modstitchModCompileOnly("curse.maven:fabric-seasons-413523:5788996")
@@ -192,7 +194,7 @@ dependencies {
             modstitchModCompileOnly("curse.maven:serene-seasons-291874:6182596")
             modstitchModCompileOnly("curse.maven:ecliptic-seasons-1118306:7304586")
             modstitchModCompileOnly("curse.maven:stardew-fishing-1066037:7266308")
-            modstitchModCompileOnly("curse.maven:starcatcher-1357603:8431589")
+            modstitchModImplementation("curse.maven:starcatcher-1357603:8431589")
             modstitchModCompileOnly("curse.maven:fishing-real-348834:6465668")
             modstitchModCompileOnly("curse.maven:hybrid-aquatic-834427:7694018")
             modstitchModCompileOnly("software.bernie.geckolib:geckolib-neoforge-1.21.1:4.8.2")

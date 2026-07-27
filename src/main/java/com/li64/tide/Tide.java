@@ -75,6 +75,7 @@ public class Tide {
         if (CONFIG == null) {
             ConfigHolder<TideConfig> holder = AutoConfig.register(TideConfig.class, PartitioningSerializer.wrap(GsonConfigSerializer::new));
             holder.registerLoadListener(Tide::updateConfig);
+            holder.registerSaveListener(Tide::updateConfig);
 
             CONFIG = holder.getConfig();
 

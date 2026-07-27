@@ -107,6 +107,7 @@ public class TideFishingHook extends Projectile {
     private CrateData crateData;
     private int particleTimer = 0;
     private boolean wasPerfectCatch;
+    private long minigameStartTime;
 
     private TideFishingHook(EntityType<? extends TideFishingHook> entityType, Level level, int luck, int lureSpeed, ItemStack rod) {
         super(entityType, level);
@@ -899,6 +900,25 @@ public class TideFishingHook extends Projectile {
     }
     public ItemStack getLine() {
         return CustomRodManager.getLine(rod);
+    }
+
+    public ItemStack getRod() {
+        return rod;
+    }
+
+    public long getMinigameStartTime() {
+        return minigameStartTime;
+    }
+
+    public void setMinigameStartTime(long time) {
+        this.minigameStartTime = time;
+    }
+
+    public void replacePrimaryCatch(ItemStack stack) {
+        if (hookedItems == null || hookedItems.isEmpty()) return;
+        List<ItemStack> items = new ArrayList<>(hookedItems);
+        items.set(0, stack);
+        hookedItems = items;
     }
 
     public void clearHookItem() {

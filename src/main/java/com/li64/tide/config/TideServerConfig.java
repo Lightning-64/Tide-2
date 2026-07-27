@@ -37,13 +37,11 @@ public final class TideServerConfig implements ConfigData {
     public static void writeToPacket(FriendlyByteBuf buf, Gson gson) {
         String json = gson.toJson(Tide.SERVER_CONFIG);
         buf.writeUtf(json);
-        Tide.LOG.info("Config wrote to packet: {}", json);
     }
 
     public static void readFromPacket(FriendlyByteBuf buf, Gson gson) {
         String json = buf.readUtf();
         Tide.SERVER_CONFIG = gson.fromJson(json, TideServerConfig.class);
-        Tide.LOG.info("Config synced to client: {}", json);
     }
 
     public static class General {
@@ -192,22 +190,26 @@ public final class TideServerConfig implements ConfigData {
         public float minigameDifficultyMultiplier = 1.0f;
 
         @ConfigEntry.Gui.Tooltip
-        public boolean useThirdPartyMinigames = true;
-
-        @ConfigEntry.Gui.Tooltip
         public boolean doSuccessSound = true;
 
         @ConfigEntry.Gui.Tooltip
         public boolean doFailSound = true;
 
+        @ConfigEntry.Gui.Tooltip
+        public boolean useThirdPartyMinigames = true;
+
+        @ConfigEntry.Gui.Tooltip
+        public boolean useThirdPartyFishData = false;
+
         @Override
         public String toString() {
             return "Minigame{" +
                     "doMinigame=" + doMinigame +
-                    ", minigameDifficulty=" + minigameDifficultyMultiplier +
-                    ", useThirdPartyMinigames=" + useThirdPartyMinigames +
+                    ", minigameDifficultyMultiplier=" + minigameDifficultyMultiplier +
                     ", doSuccessSound=" + doSuccessSound +
                     ", doFailSound=" + doFailSound +
+                    ", useThirdPartyMinigames=" + useThirdPartyMinigames +
+                    ", useThirdPartyFishData=" + useThirdPartyFishData +
                     '}';
         }
     }

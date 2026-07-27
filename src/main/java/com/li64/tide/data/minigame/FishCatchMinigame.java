@@ -1,6 +1,7 @@
 package com.li64.tide.data.minigame;
 
 import com.li64.tide.Tide;
+import com.li64.tide.compat.CompatHelper;
 import com.li64.tide.data.fishing.FishData;
 import com.li64.tide.data.fishing.mediums.FishingMedium;
 import com.li64.tide.network.messages.MinigameClientMsg;
@@ -117,6 +118,8 @@ public class FishCatchMinigame {
                 null, hook.getPlayerOwner().blockPosition(),
                 SoundEvents.EXPERIENCE_ORB_PICKUP, SoundSource.AMBIENT,
                 0.15f, 1.0f);
+        if (CompatHelper.useStarcatcherMinigame())
+            CompatHelper.starcatcherCompleteCatch(player, hook, perfectCatch);
         hook.retrieve(perfectCatch);
         onFinish();
     }

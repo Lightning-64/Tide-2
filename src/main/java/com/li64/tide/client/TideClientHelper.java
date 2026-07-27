@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 
 //? if neoforge {
 /*import com.li64.tide.network.messages.StarcatcherStartMinigameMsg;
-import com.li64.tide.compat.starcatcher.StarcatcherCompat;
+import com.li64.tide.compat.starcatcher.TideStarcatcherMinigameScreen;
 import net.minecraft.world.entity.player.Player;
 *///?}
 
@@ -36,7 +36,7 @@ public class TideClientHelper {
 
     //? if neoforge {
     /*public static void startStarcatcherMinigame(StarcatcherStartMinigameMsg message, Player player) {
-        if (Tide.PLATFORM.isModLoaded("starcatcher")) StarcatcherCompat.openMinigameScreen(message, player);
+        if (Tide.PLATFORM.isModLoaded("starcatcher")) TideStarcatcherMinigameScreen.open(message, player);
     }
     *///?}
 }

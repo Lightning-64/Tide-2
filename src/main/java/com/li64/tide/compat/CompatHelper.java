@@ -50,6 +50,11 @@ public class CompatHelper {
         *//*?} else*/ return false;
     }
 
+    public static void starcatcherCompleteCatch(ServerPlayer player, TideFishingHook hook, boolean perfectCatch) {
+        /*? if neoforge {*/ /*StarcatcherCompat.completeCatch(player, hook, perfectCatch);
+        *//*?}*/
+    }
+
     // -- stardew fishing --
 
     public static boolean useStardewMinigame() {

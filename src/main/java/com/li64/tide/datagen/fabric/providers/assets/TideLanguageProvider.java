@@ -111,6 +111,8 @@ public class TideLanguageProvider extends FabricLanguageProvider {
         builder.add("text.autoconfig.tide.option.server.minigame.minigameDifficultyMultiplier.@Tooltip", "A multiplier that increases or decreases the speed of the minigame");
         builder.add("text.autoconfig.tide.option.server.minigame.useThirdPartyMinigames", "Use Third-Party Minigames");
         builder.add("text.autoconfig.tide.option.server.minigame.useThirdPartyMinigames.@Tooltip", "If enabled, minigames from other mods like starcatcher or stardew fishing will be used");
+        builder.add("text.autoconfig.tide.option.server.minigame.useThirdPartyFishData", "Use Third-Party Fish Data");
+        builder.add("text.autoconfig.tide.option.server.minigame.useThirdPartyFishData.@Tooltip", "If enabled, fish caught with other minigames will use their fish data instead of Tide's (length, bucketable)");
 
         builder.add("text.autoconfig.tide.option.VoidHeightEntry", "Entry");
         builder.add("text.autoconfig.tide.option.VoidHeightEntry.dimension", "Dimension");

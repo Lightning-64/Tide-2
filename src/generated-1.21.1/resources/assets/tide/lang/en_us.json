@@ -839,6 +839,8 @@
   "text.autoconfig.tide.option.server.minigame.doSuccessSound.@Tooltip": "Enables the sound played when you win the minigame",
   "text.autoconfig.tide.option.server.minigame.minigameDifficultyMultiplier": "Minigame Difficulty Multiplier",
   "text.autoconfig.tide.option.server.minigame.minigameDifficultyMultiplier.@Tooltip": "A multiplier that increases or decreases the speed of the minigame",
+  "text.autoconfig.tide.option.server.minigame.useThirdPartyFishData": "Use Third-Party Fish Data",
+  "text.autoconfig.tide.option.server.minigame.useThirdPartyFishData.@Tooltip": "If enabled, fish caught with other minigames will use their fish data instead of Tide's (length, bucketable)",
   "text.autoconfig.tide.option.server.minigame.useThirdPartyMinigames": "Use Third-Party Minigames",
   "text.autoconfig.tide.option.server.minigame.useThirdPartyMinigames.@Tooltip": "If enabled, minigames from other mods like starcatcher or stardew fishing will be used",
   "text.autoconfig.tide.title": "Tide Config",
