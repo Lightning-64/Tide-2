@@ -23,6 +23,7 @@ allprojects {
         maven("https://maven.ladysnake.org/releases")
         maven("https://maven.theillusivec4.top/")
         maven("https://cursemaven.com")
+        maven("https://api.modrinth.com/maven")
         exclusiveContent {
             forRepository {
                 maven("https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/")
@@ -32,13 +33,13 @@ allprojects {
                 includeGroup("com.eliotlash.mclib")
             }
         }
-        exclusiveContent {
-            forRepository {
-                maven("https://api.modrinth.com/maven")
-            }
-            filter {
-                includeGroup("maven.modrinth")
-            }
-        }
+//        exclusiveContent {
+//            forRepository {
+//                maven("https://api.modrinth.com/maven")
+//            }
+//            filter {
+//                includeGroup("maven.modrinth")
+//            }
+//        }
     }
 }
