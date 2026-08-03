@@ -81,12 +81,12 @@ public class StardewFishingBehaviors implements DataProvider {
         ).apply(inst, MockFishBehavior::new));
 
         public static MockFishBehavior fromFishData(FishData data) {
-            int idleTime = Math.max(Math.round(16 - (5f * data.speed())), 1);
-            float topSpeed = 3.2f * data.speed();
-            float upAcceleration = 0.1f + (0.3f * data.speed());
-            float downAcceleration = 0.1f + (0.3f * data.speed());
-            int avgDistance = Math.max(Math.round(100f * data.strength()), 10);
-            int moveVariation = Math.round((float)Math.exp(4.5f * data.strength() - 0.8f) + 1);
+            int idleTime = Math.max(Math.round(20 - (5f * data.speed())), 1);
+            float topSpeed = 2.5f * data.speed();
+            float upAcceleration = 0.05f + (0.2f * data.speed());
+            float downAcceleration = 0.05f + (0.2f * data.speed());
+            int avgDistance = Math.max(Math.round(50f * data.strength()), 2);
+            int moveVariation = Math.round((float)Math.exp(4.5f * data.strength() - 1f));
             return new MockFishBehavior(idleTime, topSpeed, upAcceleration, downAcceleration, avgDistance, moveVariation);
         }
     }

@@ -1,812 +1,812 @@
 {
   "behaviors": {
     "tide:abyss_angler": {
-      "avg_distance": 78,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 16,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 39,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 12,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:alpha_fish": {
-      "avg_distance": 90,
-      "down_acceleration": 0.73,
-      "idle_time": 6,
-      "move_variation": 27,
-      "top_speed": 6.72,
-      "up_acceleration": 0.73
+      "avg_distance": 45,
+      "down_acceleration": 0.47,
+      "idle_time": 10,
+      "move_variation": 21,
+      "top_speed": 5.25,
+      "up_acceleration": 0.47
     },
     "tide:amber_rockfish": {
-      "avg_distance": 60,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 8,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 30,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 5,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:anchovy": {
-      "avg_distance": 30,
-      "down_acceleration": 0.55,
-      "idle_time": 9,
-      "move_variation": 3,
-      "top_speed": 4.8,
-      "up_acceleration": 0.55
+      "avg_distance": 15,
+      "down_acceleration": 0.35000002,
+      "idle_time": 13,
+      "move_variation": 1,
+      "top_speed": 3.75,
+      "up_acceleration": 0.35000002
     },
     "tide:angelfish": {
-      "avg_distance": 45,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 4,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 23,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 3,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:anglerfish": {
-      "avg_distance": 75,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 14,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 38,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 11,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:aquathorn": {
-      "avg_distance": 82,
-      "down_acceleration": 0.55,
-      "idle_time": 9,
-      "move_variation": 19,
-      "top_speed": 4.8,
-      "up_acceleration": 0.55
+      "avg_distance": 41,
+      "down_acceleration": 0.35000002,
+      "idle_time": 13,
+      "move_variation": 15,
+      "top_speed": 3.75,
+      "up_acceleration": 0.35000002
     },
     "tide:arapaima": {
-      "avg_distance": 60,
-      "down_acceleration": 0.6100001,
-      "idle_time": 8,
-      "move_variation": 8,
-      "top_speed": 5.44,
-      "up_acceleration": 0.6100001
+      "avg_distance": 30,
+      "down_acceleration": 0.39000002,
+      "idle_time": 12,
+      "move_variation": 5,
+      "top_speed": 4.25,
+      "up_acceleration": 0.39000002
     },
     "tide:ash_perch": {
-      "avg_distance": 55,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 6,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 28,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 4,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:bedrock_bug": {
-      "avg_distance": 75,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 14,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 38,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 11,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:bedrock_tetra": {
-      "avg_distance": 75,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 14,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 38,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 11,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:black_crappie": {
-      "avg_distance": 38,
-      "down_acceleration": 0.35500002,
-      "idle_time": 12,
-      "move_variation": 3,
-      "top_speed": 2.72,
-      "up_acceleration": 0.35500002
+      "avg_distance": 19,
+      "down_acceleration": 0.22,
+      "idle_time": 16,
+      "move_variation": 2,
+      "top_speed": 2.125,
+      "up_acceleration": 0.22
     },
     "tide:blazing_swordfish": {
-      "avg_distance": 85,
-      "down_acceleration": 0.544,
-      "idle_time": 9,
-      "move_variation": 22,
-      "top_speed": 4.736,
-      "up_acceleration": 0.544
+      "avg_distance": 43,
+      "down_acceleration": 0.34600002,
+      "idle_time": 13,
+      "move_variation": 17,
+      "top_speed": 3.7,
+      "up_acceleration": 0.34600002
     },
     "tide:blossom_bass": {
-      "avg_distance": 50,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 5,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
-    },
-    "tide:blue_neonfish": {
-      "avg_distance": 75,
-      "down_acceleration": 0.55,
-      "idle_time": 9,
-      "move_variation": 14,
-      "top_speed": 4.8,
-      "up_acceleration": 0.55
-    },
-    "tide:bluegill": {
-      "avg_distance": 35,
+      "avg_distance": 25,
       "down_acceleration": 0.31,
-      "idle_time": 13,
+      "idle_time": 14,
       "move_variation": 3,
-      "top_speed": 2.24,
+      "top_speed": 3.25,
       "up_acceleration": 0.31
     },
+    "tide:blue_neonfish": {
+      "avg_distance": 38,
+      "down_acceleration": 0.35000002,
+      "idle_time": 13,
+      "move_variation": 11,
+      "top_speed": 3.75,
+      "up_acceleration": 0.35000002
+    },
+    "tide:bluegill": {
+      "avg_distance": 18,
+      "down_acceleration": 0.19,
+      "idle_time": 17,
+      "move_variation": 2,
+      "top_speed": 1.75,
+      "up_acceleration": 0.19
+    },
     "tide:brook_trout": {
-      "avg_distance": 35,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 3,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 18,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 2,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:bull_shark": {
-      "avg_distance": 80,
-      "down_acceleration": 0.6100001,
-      "idle_time": 8,
-      "move_variation": 17,
-      "top_speed": 5.44,
-      "up_acceleration": 0.6100001
+      "avg_distance": 40,
+      "down_acceleration": 0.39000002,
+      "idle_time": 12,
+      "move_variation": 13,
+      "top_speed": 4.25,
+      "up_acceleration": 0.39000002
     },
     "tide:carp": {
-      "avg_distance": 40,
-      "down_acceleration": 0.28,
-      "idle_time": 13,
-      "move_variation": 4,
-      "top_speed": 1.9200001,
-      "up_acceleration": 0.28
+      "avg_distance": 20,
+      "down_acceleration": 0.17,
+      "idle_time": 17,
+      "move_variation": 2,
+      "top_speed": 1.5,
+      "up_acceleration": 0.17
     },
     "tide:catfish": {
-      "avg_distance": 40,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 4,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 20,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 2,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:cave_crawler": {
-      "avg_distance": 75,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 14,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 38,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 11,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:cave_eel": {
-      "avg_distance": 65,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 9,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 33,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 7,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:chasm_eel": {
-      "avg_distance": 85,
-      "down_acceleration": 0.55,
-      "idle_time": 9,
-      "move_variation": 22,
-      "top_speed": 4.8,
-      "up_acceleration": 0.55
+      "avg_distance": 43,
+      "down_acceleration": 0.35000002,
+      "idle_time": 13,
+      "move_variation": 17,
+      "top_speed": 3.75,
+      "up_acceleration": 0.35000002
     },
     "tide:chorus_cod": {
-      "avg_distance": 72,
-      "down_acceleration": 0.445,
-      "idle_time": 10,
-      "move_variation": 12,
-      "top_speed": 3.68,
-      "up_acceleration": 0.445
+      "avg_distance": 36,
+      "down_acceleration": 0.28,
+      "idle_time": 14,
+      "move_variation": 9,
+      "top_speed": 2.875,
+      "up_acceleration": 0.28
     },
     "tide:coelacanth": {
-      "avg_distance": 92,
-      "down_acceleration": 0.58000004,
-      "idle_time": 8,
-      "move_variation": 29,
-      "top_speed": 5.1200004,
-      "up_acceleration": 0.58000004
+      "avg_distance": 46,
+      "down_acceleration": 0.37000003,
+      "idle_time": 12,
+      "move_variation": 23,
+      "top_speed": 4.0,
+      "up_acceleration": 0.37000003
     },
     "tide:crimson_fangjaw": {
-      "avg_distance": 68,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 11,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 34,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 8,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:crystal_shrimp": {
-      "avg_distance": 62,
-      "down_acceleration": 0.42400002,
-      "idle_time": 11,
-      "move_variation": 8,
-      "top_speed": 3.456,
-      "up_acceleration": 0.42400002
+      "avg_distance": 31,
+      "down_acceleration": 0.266,
+      "idle_time": 15,
+      "move_variation": 6,
+      "top_speed": 2.7,
+      "up_acceleration": 0.266
     },
     "tide:crystalline_carp": {
-      "avg_distance": 70,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 11,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 35,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 9,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:darkness_eater": {
-      "avg_distance": 86,
-      "down_acceleration": 0.6100001,
-      "idle_time": 8,
-      "move_variation": 23,
-      "top_speed": 5.44,
-      "up_acceleration": 0.6100001
+      "avg_distance": 43,
+      "down_acceleration": 0.39000002,
+      "idle_time": 12,
+      "move_variation": 18,
+      "top_speed": 4.25,
+      "up_acceleration": 0.39000002
     },
     "tide:deep_blue": {
-      "avg_distance": 76,
-      "down_acceleration": 0.565,
-      "idle_time": 8,
-      "move_variation": 15,
-      "top_speed": 4.96,
-      "up_acceleration": 0.565
+      "avg_distance": 38,
+      "down_acceleration": 0.36,
+      "idle_time": 12,
+      "move_variation": 11,
+      "top_speed": 3.875,
+      "up_acceleration": 0.36
     },
     "tide:deep_grouper": {
-      "avg_distance": 50,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 5,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 25,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 3,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:devils_hole_pupfish": {
-      "avg_distance": 80,
-      "down_acceleration": 0.73,
-      "idle_time": 6,
-      "move_variation": 17,
-      "top_speed": 6.72,
-      "up_acceleration": 0.73
+      "avg_distance": 40,
+      "down_acceleration": 0.47,
+      "idle_time": 10,
+      "move_variation": 13,
+      "top_speed": 5.25,
+      "up_acceleration": 0.47
     },
     "tide:dragon_fish": {
-      "avg_distance": 92,
-      "down_acceleration": 0.67,
-      "idle_time": 7,
-      "move_variation": 29,
-      "top_speed": 6.08,
-      "up_acceleration": 0.67
+      "avg_distance": 46,
+      "down_acceleration": 0.43,
+      "idle_time": 11,
+      "move_variation": 23,
+      "top_speed": 4.75,
+      "up_acceleration": 0.43
     },
     "tide:dripstone_darter": {
-      "avg_distance": 70,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 11,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 35,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 9,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:dutchman_sock": {
-      "avg_distance": 65,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 9,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 33,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 7,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:echo_snapper": {
-      "avg_distance": 80,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 17,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 40,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 13,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:elytrout": {
-      "avg_distance": 65,
-      "down_acceleration": 0.535,
-      "idle_time": 9,
-      "move_variation": 9,
-      "top_speed": 4.6400003,
-      "up_acceleration": 0.535
+      "avg_distance": 33,
+      "down_acceleration": 0.34000003,
+      "idle_time": 13,
+      "move_variation": 7,
+      "top_speed": 3.625,
+      "up_acceleration": 0.34000003
     },
     "tide:ember_koi": {
-      "avg_distance": 60,
-      "down_acceleration": 0.32500002,
-      "idle_time": 12,
-      "move_variation": 8,
-      "top_speed": 2.4,
-      "up_acceleration": 0.32500002
+      "avg_distance": 30,
+      "down_acceleration": 0.2,
+      "idle_time": 16,
+      "move_variation": 5,
+      "top_speed": 1.875,
+      "up_acceleration": 0.2
     },
     "tide:ender_glider": {
-      "avg_distance": 55,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 6,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 28,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 4,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:enderfin": {
-      "avg_distance": 60,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 8,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 30,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 5,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:endergazer": {
-      "avg_distance": 68,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 11,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 34,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 8,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:flounder": {
-      "avg_distance": 45,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 4,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 23,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 3,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:frostbite_flounder": {
-      "avg_distance": 55,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 6,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 28,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 4,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:gilded_minnow": {
-      "avg_distance": 70,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 11,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 35,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 9,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:glowfish": {
-      "avg_distance": 50,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 5,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 25,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 3,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:great_white_shark": {
-      "avg_distance": 85,
-      "down_acceleration": 0.6100001,
-      "idle_time": 8,
-      "move_variation": 22,
-      "top_speed": 5.44,
-      "up_acceleration": 0.6100001
+      "avg_distance": 43,
+      "down_acceleration": 0.39000002,
+      "idle_time": 12,
+      "move_variation": 17,
+      "top_speed": 4.25,
+      "up_acceleration": 0.39000002
     },
     "tide:guppy": {
-      "avg_distance": 20,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 2,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 10,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 1,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:incandescent_larva": {
-      "avg_distance": 65,
-      "down_acceleration": 0.565,
-      "idle_time": 8,
-      "move_variation": 9,
-      "top_speed": 4.96,
-      "up_acceleration": 0.565
+      "avg_distance": 33,
+      "down_acceleration": 0.36,
+      "idle_time": 12,
+      "move_variation": 7,
+      "top_speed": 3.875,
+      "up_acceleration": 0.36
     },
     "tide:inferno_guppy": {
-      "avg_distance": 40,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 4,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 20,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 2,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:iron_tetra": {
-      "avg_distance": 65,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 9,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 33,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 7,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:judgment_fish": {
-      "avg_distance": 73,
-      "down_acceleration": 0.58000004,
-      "idle_time": 8,
-      "move_variation": 13,
-      "top_speed": 5.1200004,
-      "up_acceleration": 0.58000004
+      "avg_distance": 37,
+      "down_acceleration": 0.37000003,
+      "idle_time": 12,
+      "move_variation": 10,
+      "top_speed": 4.0,
+      "up_acceleration": 0.37000003
     },
     "tide:lapis_lanternfish": {
-      "avg_distance": 60,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 8,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 30,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 5,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:largemouth_bass": {
-      "avg_distance": 40,
-      "down_acceleration": 0.35500002,
-      "idle_time": 12,
-      "move_variation": 4,
-      "top_speed": 2.72,
-      "up_acceleration": 0.35500002
+      "avg_distance": 20,
+      "down_acceleration": 0.22,
+      "idle_time": 16,
+      "move_variation": 2,
+      "top_speed": 2.125,
+      "up_acceleration": 0.22
     },
     "tide:luminescent_jellyfish": {
-      "avg_distance": 68,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 11,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 34,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 8,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:mackerel": {
-      "avg_distance": 50,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 5,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 25,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 3,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:magma_mackerel": {
-      "avg_distance": 65,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 9,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 33,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 7,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:mahi_mahi": {
-      "avg_distance": 70,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 11,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 35,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 9,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:manta_ray": {
-      "avg_distance": 76,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 15,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 38,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 11,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:mantyvern": {
-      "avg_distance": 78,
-      "down_acceleration": 0.565,
-      "idle_time": 8,
-      "move_variation": 16,
-      "top_speed": 4.96,
-      "up_acceleration": 0.565
+      "avg_distance": 39,
+      "down_acceleration": 0.36,
+      "idle_time": 12,
+      "move_variation": 12,
+      "top_speed": 3.875,
+      "up_acceleration": 0.36
     },
     "tide:marstilus": {
-      "avg_distance": 82,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 19,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 41,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 15,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:midas_fish": {
-      "avg_distance": 90,
-      "down_acceleration": 0.64000005,
-      "idle_time": 7,
-      "move_variation": 27,
-      "top_speed": 5.7599998,
-      "up_acceleration": 0.64000005
+      "avg_distance": 45,
+      "down_acceleration": 0.41,
+      "idle_time": 11,
+      "move_variation": 21,
+      "top_speed": 4.5,
+      "up_acceleration": 0.41
     },
     "tide:mirage_catfish": {
-      "avg_distance": 45,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 4,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 23,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 3,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:mooneye": {
-      "avg_distance": 70,
-      "down_acceleration": 0.64000005,
-      "idle_time": 7,
-      "move_variation": 11,
-      "top_speed": 5.7599998,
-      "up_acceleration": 0.64000005
+      "avg_distance": 35,
+      "down_acceleration": 0.41,
+      "idle_time": 11,
+      "move_variation": 9,
+      "top_speed": 4.5,
+      "up_acceleration": 0.41
     },
     "tide:nephrosilu": {
-      "avg_distance": 80,
-      "down_acceleration": 0.595,
-      "idle_time": 8,
-      "move_variation": 17,
-      "top_speed": 5.28,
-      "up_acceleration": 0.595
+      "avg_distance": 40,
+      "down_acceleration": 0.38000003,
+      "idle_time": 12,
+      "move_variation": 13,
+      "top_speed": 4.125,
+      "up_acceleration": 0.38000003
     },
     "tide:neptune_koi": {
-      "avg_distance": 75,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 14,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 38,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 11,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:obsidian_pike": {
-      "avg_distance": 65,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 9,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 33,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 7,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:ocean_perch": {
-      "avg_distance": 40,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 4,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 20,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 2,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:pale_clubfish": {
-      "avg_distance": 60,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 8,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 30,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 5,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:pentapus": {
-      "avg_distance": 80,
-      "down_acceleration": 0.595,
-      "idle_time": 8,
-      "move_variation": 17,
-      "top_speed": 5.28,
-      "up_acceleration": 0.595
+      "avg_distance": 40,
+      "down_acceleration": 0.38000003,
+      "idle_time": 12,
+      "move_variation": 13,
+      "top_speed": 4.125,
+      "up_acceleration": 0.38000003
     },
     "tide:pike": {
-      "avg_distance": 45,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 4,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 23,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 3,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:pluto_snail": {
-      "avg_distance": 87,
-      "down_acceleration": 0.34,
-      "idle_time": 12,
-      "move_variation": 24,
-      "top_speed": 2.5600002,
-      "up_acceleration": 0.34
+      "avg_distance": 44,
+      "down_acceleration": 0.21000001,
+      "idle_time": 16,
+      "move_variation": 18,
+      "top_speed": 2.0,
+      "up_acceleration": 0.21000001
     },
     "tide:rainbow_trout": {
-      "avg_distance": 30,
-      "down_acceleration": 0.32500002,
-      "idle_time": 12,
-      "move_variation": 3,
-      "top_speed": 2.4,
-      "up_acceleration": 0.32500002
+      "avg_distance": 15,
+      "down_acceleration": 0.2,
+      "idle_time": 16,
+      "move_variation": 1,
+      "top_speed": 1.875,
+      "up_acceleration": 0.2
     },
     "tide:red_40": {
-      "avg_distance": 75,
-      "down_acceleration": 0.475,
-      "idle_time": 10,
-      "move_variation": 14,
-      "top_speed": 4.0,
-      "up_acceleration": 0.475
+      "avg_distance": 38,
+      "down_acceleration": 0.3,
+      "idle_time": 14,
+      "move_variation": 11,
+      "top_speed": 3.125,
+      "up_acceleration": 0.3
     },
     "tide:red_snapper": {
-      "avg_distance": 40,
-      "down_acceleration": 0.4,
-      "idle_time": 11,
-      "move_variation": 4,
-      "top_speed": 3.2,
-      "up_acceleration": 0.4
+      "avg_distance": 20,
+      "down_acceleration": 0.25,
+      "idle_time": 15,
+      "move_variation": 2,
+      "top_speed": 2.5,
+      "up_acceleration": 0.25
     },
     "tide:sailfish": {
-      "avg_distance": 80,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 17,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 40,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 13,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:sand_tiger_shark": {
-      "avg_distance": 70,
-      "down_acceleration": 0.595,
-      "idle_time": 8,
-      "move_variation": 11,
-      "top_speed": 5.28,
-      "up_acceleration": 0.595
+      "avg_distance": 35,
+      "down_acceleration": 0.38000003,
+      "idle_time": 12,
+      "move_variation": 9,
+      "top_speed": 4.125,
+      "up_acceleration": 0.38000003
     },
     "tide:saturn_cuttlefish": {
-      "avg_distance": 82,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 19,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 41,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 15,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:shadow_shark": {
-      "avg_distance": 86,
-      "down_acceleration": 0.62500006,
-      "idle_time": 7,
-      "move_variation": 23,
-      "top_speed": 5.6,
-      "up_acceleration": 0.62500006
+      "avg_distance": 43,
+      "down_acceleration": 0.4,
+      "idle_time": 11,
+      "move_variation": 18,
+      "top_speed": 4.375,
+      "up_acceleration": 0.4
     },
     "tide:shadow_snapper": {
-      "avg_distance": 55,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 6,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 28,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 4,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:shooting_starfish": {
-      "avg_distance": 88,
-      "down_acceleration": 0.76000005,
-      "idle_time": 5,
-      "move_variation": 25,
-      "top_speed": 7.0400004,
-      "up_acceleration": 0.76000005
+      "avg_distance": 44,
+      "down_acceleration": 0.49000004,
+      "idle_time": 9,
+      "move_variation": 19,
+      "top_speed": 5.5,
+      "up_acceleration": 0.49000004
     },
     "tide:sleepy_carp": {
-      "avg_distance": 78,
-      "down_acceleration": 0.29500002,
-      "idle_time": 13,
-      "move_variation": 16,
-      "top_speed": 2.08,
-      "up_acceleration": 0.29500002
+      "avg_distance": 39,
+      "down_acceleration": 0.17999999,
+      "idle_time": 17,
+      "move_variation": 12,
+      "top_speed": 1.625,
+      "up_acceleration": 0.17999999
     },
     "tide:slimy_salmon": {
-      "avg_distance": 50,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 5,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 25,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 3,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:smallmouth_bass": {
-      "avg_distance": 40,
-      "down_acceleration": 0.37,
-      "idle_time": 12,
-      "move_variation": 4,
-      "top_speed": 2.8799999,
-      "up_acceleration": 0.37
+      "avg_distance": 20,
+      "down_acceleration": 0.22999999,
+      "idle_time": 16,
+      "move_variation": 2,
+      "top_speed": 2.25,
+      "up_acceleration": 0.22999999
     },
     "tide:snatcher_squid": {
-      "avg_distance": 80,
-      "down_acceleration": 0.55,
-      "idle_time": 9,
-      "move_variation": 17,
-      "top_speed": 4.8,
-      "up_acceleration": 0.55
+      "avg_distance": 40,
+      "down_acceleration": 0.35000002,
+      "idle_time": 13,
+      "move_variation": 13,
+      "top_speed": 3.75,
+      "up_acceleration": 0.35000002
     },
     "tide:snook": {
-      "avg_distance": 45,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 4,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 23,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 3,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:soulscale": {
-      "avg_distance": 60,
-      "down_acceleration": 0.445,
-      "idle_time": 10,
-      "move_variation": 8,
-      "top_speed": 3.68,
-      "up_acceleration": 0.445
+      "avg_distance": 30,
+      "down_acceleration": 0.28,
+      "idle_time": 14,
+      "move_variation": 5,
+      "top_speed": 2.875,
+      "up_acceleration": 0.28
     },
     "tide:spore_stalker": {
-      "avg_distance": 50,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 5,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 25,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 3,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:sturgeon": {
-      "avg_distance": 60,
-      "down_acceleration": 0.58000004,
-      "idle_time": 8,
-      "move_variation": 8,
-      "top_speed": 5.1200004,
-      "up_acceleration": 0.58000004
+      "avg_distance": 30,
+      "down_acceleration": 0.37000003,
+      "idle_time": 12,
+      "move_variation": 5,
+      "top_speed": 4.0,
+      "up_acceleration": 0.37000003
     },
     "tide:sun_emblem": {
-      "avg_distance": 83,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 20,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 42,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 15,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:swordfish": {
-      "avg_distance": 80,
-      "down_acceleration": 0.52000004,
-      "idle_time": 9,
-      "move_variation": 17,
-      "top_speed": 4.48,
-      "up_acceleration": 0.52000004
+      "avg_distance": 40,
+      "down_acceleration": 0.33,
+      "idle_time": 13,
+      "move_variation": 13,
+      "top_speed": 3.5,
+      "up_acceleration": 0.33
     },
     "tide:tuna": {
-      "avg_distance": 55,
-      "down_acceleration": 0.46,
-      "idle_time": 10,
-      "move_variation": 6,
-      "top_speed": 3.8400002,
-      "up_acceleration": 0.46
+      "avg_distance": 28,
+      "down_acceleration": 0.29000002,
+      "idle_time": 14,
+      "move_variation": 4,
+      "top_speed": 3.0,
+      "up_acceleration": 0.29000002
     },
     "tide:uranias_pisces": {
-      "avg_distance": 80,
-      "down_acceleration": 0.6100001,
-      "idle_time": 8,
-      "move_variation": 17,
-      "top_speed": 5.44,
-      "up_acceleration": 0.6100001
+      "avg_distance": 40,
+      "down_acceleration": 0.39000002,
+      "idle_time": 12,
+      "move_variation": 13,
+      "top_speed": 4.25,
+      "up_acceleration": 0.39000002
     },
     "tide:vengeance": {
-      "avg_distance": 80,
-      "down_acceleration": 0.60400003,
-      "idle_time": 8,
-      "move_variation": 17,
-      "top_speed": 5.376,
-      "up_acceleration": 0.60400003
+      "avg_distance": 40,
+      "down_acceleration": 0.386,
+      "idle_time": 12,
+      "move_variation": 13,
+      "top_speed": 4.2,
+      "up_acceleration": 0.386
     },
     "tide:violet_carp": {
-      "avg_distance": 70,
-      "down_acceleration": 0.445,
-      "idle_time": 10,
-      "move_variation": 11,
-      "top_speed": 3.68,
-      "up_acceleration": 0.445
+      "avg_distance": 35,
+      "down_acceleration": 0.28,
+      "idle_time": 14,
+      "move_variation": 9,
+      "top_speed": 2.875,
+      "up_acceleration": 0.28
     },
     "tide:voidseeker": {
-      "avg_distance": 90,
-      "down_acceleration": 0.65500003,
-      "idle_time": 7,
-      "move_variation": 27,
-      "top_speed": 5.92,
-      "up_acceleration": 0.65500003
+      "avg_distance": 45,
+      "down_acceleration": 0.42000002,
+      "idle_time": 11,
+      "move_variation": 21,
+      "top_speed": 4.625,
+      "up_acceleration": 0.42000002
     },
     "tide:volcano_tuna": {
-      "avg_distance": 70,
-      "down_acceleration": 0.49,
-      "idle_time": 10,
-      "move_variation": 11,
-      "top_speed": 4.16,
-      "up_acceleration": 0.49
+      "avg_distance": 35,
+      "down_acceleration": 0.31,
+      "idle_time": 14,
+      "move_variation": 9,
+      "top_speed": 3.25,
+      "up_acceleration": 0.31
     },
     "tide:walleye": {
-      "avg_distance": 45,
-      "down_acceleration": 0.43,
-      "idle_time": 11,
-      "move_variation": 4,
-      "top_speed": 3.5200002,
-      "up_acceleration": 0.43
+      "avg_distance": 23,
+      "down_acceleration": 0.27,
+      "idle_time": 15,
+      "move_variation": 3,
+      "top_speed": 2.75,
+      "up_acceleration": 0.27
     },
     "tide:warped_guppy": {
-      "avg_distance": 50,
-      "down_acceleration": 0.445,
-      "idle_time": 10,
-      "move_variation": 5,
-      "top_speed": 3.68,
-      "up_acceleration": 0.445
+      "avg_distance": 25,
+      "down_acceleration": 0.28,
+      "idle_time": 14,
+      "move_variation": 3,
+      "top_speed": 2.875,
+      "up_acceleration": 0.28
     },
     "tide:white_crappie": {
-      "avg_distance": 35,
-      "down_acceleration": 0.35500002,
-      "idle_time": 12,
-      "move_variation": 3,
-      "top_speed": 2.72,
-      "up_acceleration": 0.35500002
+      "avg_distance": 18,
+      "down_acceleration": 0.22,
+      "idle_time": 16,
+      "move_variation": 2,
+      "top_speed": 2.125,
+      "up_acceleration": 0.22
     },
     "tide:witherfin": {
-      "avg_distance": 70,
-      "down_acceleration": 0.445,
-      "idle_time": 10,
-      "move_variation": 11,
-      "top_speed": 3.68,
-      "up_acceleration": 0.445
+      "avg_distance": 35,
+      "down_acceleration": 0.28,
+      "idle_time": 14,
+      "move_variation": 9,
+      "top_speed": 2.875,
+      "up_acceleration": 0.28
     },
     "tide:yellow_perch": {
-      "avg_distance": 35,
-      "down_acceleration": 0.385,
-      "idle_time": 11,
-      "move_variation": 3,
-      "top_speed": 3.04,
-      "up_acceleration": 0.385
+      "avg_distance": 18,
+      "down_acceleration": 0.24,
+      "idle_time": 15,
+      "move_variation": 2,
+      "top_speed": 2.375,
+      "up_acceleration": 0.24
     }
   }
 }
