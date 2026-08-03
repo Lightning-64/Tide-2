@@ -18,6 +18,9 @@ import java.util.List;
 
 //? if fabric {
 import com.li64.tide.compat.accessories.TrinketsCompat;
+//? if =1.20.1 {
+/*import com.li64.tide.compat.stardewfishing.StardewFishingCompat;
+*///?}
 //?} else {
 /*import com.li64.tide.compat.stardewfishing.StardewFishingCompat;
 import com.li64.tide.compat.accessories.CuriosCompat;
@@ -62,8 +65,8 @@ public class CompatHelper {
     }
 
     public static boolean stardewFishingStartMinigame(ServerPlayer player, HookAccessor hook, ItemStack rod, List<ItemStack> hookedItems) {
-        /*? if neoforge || forge {*/ /*return StardewFishingCompat.start(player, hook, rod, hookedItems);
-        *//*?} else*/ return false;
+        /*? if neoforge || forge || (fabric && =1.20.1) {*/ /*return StardewFishingCompat.start(player, hook, rod, hookedItems);
+         *//*?} else*/ return false;
     }
 
     public static List<ItemStack> stardewFishingGetRewards(HookAccessor hook) {

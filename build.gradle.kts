@@ -182,6 +182,7 @@ dependencies {
             modstitchModCompileOnly("curse.maven:hybrid-aquatic-834427:8216583")
             modstitchModCompileOnly("software.bernie.geckolib:geckolib-fabric-1.20.1:4.8.2")
             modstitchCompileOnly("com.eliotlash.mclib:mclib:20")
+            modstitchModCompileOnly("maven.modrinth:9wJhd9x6:HWz0cRcl") // Stardew Fishing Fabric
         }
     }
 
