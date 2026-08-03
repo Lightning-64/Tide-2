@@ -13,7 +13,10 @@ import java.io.Reader;
 import java.util.*;
 
 public abstract class LayeredDataLoader<T> extends AbstractDataLoader<T, SendableDataMap<T>> {
-    public LayeredDataLoader(String directory) { super(directory); }
+    public LayeredDataLoader(String directory) {
+        super(directory);
+        this.data = new SendableDataMap<>(Map.of(), this.getEntryCodec());
+    }
 
     public static <T> LayeredDataLoader<T> of(String directory, Codec<T> codec) {
         return new LayeredDataLoader<>(directory) {

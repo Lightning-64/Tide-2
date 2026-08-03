@@ -14,6 +14,7 @@ import java.util.List;
 public abstract class FlatDataLoader<T> extends AbstractDataLoader<T, List<T>> {
     public FlatDataLoader(String directory) {
         super(directory);
+        this.data = List.of();
     }
 
     public static <T> FlatDataLoader<T> of(String directory, Codec<T> codec) {
