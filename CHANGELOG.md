@@ -1,3 +1,12 @@
+## Tide v2.1.1 - 8/03/26
+
+- Fixed a crash when fishing with Starcatcher installed
+- Added optional support for Starcatcher's fish data
+- The server config now appears in the config screen
+- Fixed a bug where the server config file would sometimes reset itself
+- Re-added compatibility with Stardew Fishing Fabric
+- Reduced the difficulty of Stardew Fishing minigames for Tide fish
+
 ## Tide v2.1 - 6/21/26
 
 ---
