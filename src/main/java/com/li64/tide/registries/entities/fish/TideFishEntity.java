@@ -99,7 +99,7 @@ public class TideFishEntity extends AbstractSchoolingFish {
 
         Holder<Biome> biome = level.getBiome(pos);
         Holder<Biome> nearestBiome = data.conditions().stream().anyMatch(c ->
-                c.type() == FishingConditionType.BIOME_WHITELIST) // TODO: add c.containsType(t) to handle wrapper conditions
+                c.containsType(FishingConditionType.BIOME_WHITELIST))
                 ? TideUtils.findClosestNonWaterBiome(level.getLevel(), pos, 12, 3).orElse(biome) : biome;
 
         FishingContext context = new FishingContext(
