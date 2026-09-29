@@ -5,6 +5,7 @@ import com.li64.tide.data.TideTags;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import top.theillusivec4.curios.api.CuriosApi;
+import com.li64.tide.data.informational.FishingInfoManager;
 
 import java.util.ArrayList;
 
@@ -15,7 +16,7 @@ public class CuriosCompat {
                 .findCurios(stack -> stack.is(TideTags.Items.INFORMATIONAL))
                 .forEach(result -> {
                     Item item = result.stack().getItem();
-                    if (!items.contains(item)) items.add(item);
+                    FishingInfoManager.addInfoItem(items, item);
                 }));
     }
 }
